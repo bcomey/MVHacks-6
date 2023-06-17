@@ -4,7 +4,12 @@
 
 <script>
 export default {
- alert("!");
+	methods:{
+	
+	},
+	mounted(){
+	
+	},
 }
 </script>
 
