@@ -1743,7 +1743,9 @@
 		}
 		var rooms=[];
 		for(var i=0;i<this.clubs.length;i++){
-			rooms.push(this.clubs[i].room_number);
+			if(this.clubs[i].room.toLowerCase().includes("friday")){
+				rooms.push(this.clubs[i].room_number);
+			}
 		}
 		
 		for(var i=0;i<this.mapboxes.length;i++){
