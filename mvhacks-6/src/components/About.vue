@@ -15,7 +15,10 @@
       methods:{
           goToAbout(){
               window.location.href = "/about";
-          }
+          },
+		  goToMap(){
+            window.location.href = "/map";
+			},
       
       },
       mounted(){

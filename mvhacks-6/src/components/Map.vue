@@ -3,7 +3,7 @@
     <VButton x="80%" y="3%" width="120px" height="60px" text="About" fontSize="25px" styl="secondary" borderRadius="10px" @click = "goToAbout"></VButton>
     <VButton x="90%" y="3%" width="120px" height="60px" text="Map" fontSize="25px" styl="normal" borderRadius="10px"></VButton>
     <div id="HeaderSeparator"></div>
-    <img src="../assets/map.png">
+    <img id="Map" src="../assets/map.png">
   </template>
 <script>
   import VButton from "./VButton.vue";
@@ -14,8 +14,10 @@
       methods:{
           goToAbout(){
               window.location.href = "/about";
-          }
-      
+          },
+		  goToMap(){
+            window.location.href = "/map";
+			},
       },
       mounted(){
       
@@ -120,6 +122,12 @@
       left:0%;
       top:12%;
       height:2px;
+  }
+  #Map{
+	height:100%;
+	position:absolute;
+	top:0%;
+	left:30%;
   }
 </style>
   
