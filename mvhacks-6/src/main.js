@@ -4,13 +4,14 @@ import App from './App.vue'
 
 import Home from "./components/Home"
 import About from "./components/About"
-
+import Map from "./components/Map"
 
 const router=createRouter({
 	history:createWebHistory(),
 	routes:[
 	{path:"/",component:Home},
-	{path:"/about",component:About}
+	{path:"/about",component:About},
+	{path:"/map",component:Map},
 	]
 })
 
