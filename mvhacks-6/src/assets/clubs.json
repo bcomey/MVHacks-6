@@ -1,5 +1,6 @@
 {
-    "clubs": [
+    "clubs": 
+    [
 {
     "club_name" : "6th Man\n", 
     "category" : "Recreational\n", 
@@ -382,19 +383,241 @@
     "club_name" : "MVHS Drama Llamas\n", 
     "category" : "Recreational\n", 
     "desc" : "Drama Llamas is a group with the intent of making all aspects of theatre available to everyone. We are committed to creating student-run theater and learning leadership skills. Whenever possible, we will perform student-written shows, and put on one full-scale musical at the end of the year, which will serve as our community event.     \n", 
-    "room" : "\n"
+    "room" : "Monday through Thursday Weekly starting after the Spartan Theatre Company spring musical\n"
 },
 {
-    "club_name" : "\n", 
-    "category" : "MVHS Dungeons and Dragons Club\n", 
-    "desc" : "Recreational\n", 
-    "room" : "The MVHS Dungeons & Dragons club is a club in which members of the community who either know d&d or are eaer to learn the game engage in team bhuilding activities, imporv games, build confidence and community. We also teach new players the rules of dungeon and dragons, an interactive role-playing game ehich takes place in the midievel era inspired by the forgotten realms, and help organize and facilitate games. Our commnity even tis to volunteer at animal assisted happiness and help out with yard and farm work\n"
+    "club_name" : "MVHS Dungeons and Dragons Club\n", 
+    "category" : "Recreational\n", 
+    "desc" : "The MVHS Dungeons & Dragons club is a club in which members of the community who either know d&d or are eaer to learn the game engage in team bhuilding activities, imporv games, build confidence and community. We also teach new players the rules of dungeon and dragons, an interactive role-playing game ehich takes place in the midievel era inspired by the forgotten realms, and help organize and facilitate games. Our commnity even tis to volunteer at animal assisted happiness and help out with yard and farm work\n", 
+    "room" : "Bi-weekly, Thursdays at Lunch in room 722\n"
 },
 {
-    "club_name" : "\n", 
-    "category" : "MVHS Medical Exploration Club\n", 
-    "desc" : "Community Service, Awareness, and Academic\n", 
-    "room" : "The MV Medical Exploration Club is a group for students to learn more about the field of medicine and healthcare. Club members will gain exposure to these careers through guest speakers and lectures about specific fields and health conditions. Additionally, students will get the opportunity to earn community service hours through fundraising and volunteering for medical related charities and organizations. \n"
+    "club_name" : "MVHS Medical Exploration Club\n", 
+    "category" : "Community Service, Awareness, and Academic\n", 
+    "desc" : "The MV Medical Exploration Club is a group for students to learn more about the field of medicine and healthcare. Club members will gain exposure to these careers through guest speakers and lectures about specific fields and health conditions. Additionally, students will get the opportunity to earn community service hours through fundraising and volunteering for medical related charities and organizations. \n", 
+    "room" : "Bi Weekly on Thursdays at lunch in room 117\n"
+},
+{
+    "club_name" : "MVHS Spartonautics\n", 
+    "category" : "None\n", 
+    "desc" : "None\n", 
+    "room" : "None\n"
+},
+{
+    "club_name" : "MVHS Spikeball Club\n", 
+    "category" : "Recreational\n", 
+    "desc" : "The MVHS spikeball club is a group whose members are interested in learning, playimng, and competing in the game of roundnet. It also promotes a fun enviroment to not play the game with others but to also have fun and meet new people while doing so. \n", 
+    "room" : "weekly on fridays @ lunch in room ??\n"
+},
+{
+    "club_name" : "National Art Honors Society\n", 
+    "category" : "Community Service\n", 
+    "desc" : "National Art Honor Society is community service through the means or art. We bring together the two disciplines for artists to use their skills and love for art to benefit the community. National Art Honor Society teaches student-led art classes for teachers, collaborates with clubs and cultural groups, and hosts activities for local elementary schools. \n", 
+    "room" : "Weekly on Tuesdays at lunch in room 110\n"
+},
+{
+    "club_name" : "On Trend Collaborators Club\n", 
+    "category" : "None\n", 
+    "desc" : "The American Cancer Society On Trend Collaborators is a group whose members are interested in promoting the affordability and availability of sustainable fashion through volunteer work at the Discovery Shop in Los Altos affiliated with The American Cancer Society Discovery Shop. \n", 
+    "room" : "None\n"
+},
+{
+    "club_name" : "Party Games Club\n", 
+    "category" : "Recreational\n", 
+    "desc" : "The party games club is a group created with the purpose of giving students a place to have fun with their friends make new ones, and de-stress. Our community event will be a fundraiser\n", 
+    "room" : "Wednesday Bi-weekly @ lunch in rm 511\n"
+},
+{
+    "club_name" : "Persian Culture Club\n", 
+    "category" : "Cultural\n", 
+    "desc" : "The Persian Culture club strives to embrace and celebrate the beauty and uniqueness of persian culture and is a group of enthusiastic persian and non-persian MVHS students who are interested in learning more about Persian history and Persian culture through community activities and club meetings. Our community service event will be a persian culture table at lunch at school to teach our community about persian new year!\n", 
+    "room" : "Bi Weekly on Wednesdays at lunch in the library\n"
+},
+{
+    "club_name" : "Physics and Astronomy club\n", 
+    "category" : "Academic\n", 
+    "desc" : "MVHS Physics and Astronomy Club is a commmunity of students interested in the subject of physics, astronomy, and astrophysics. The Club is dedicated to providing practical curriculum, competition preperation, coursework assistance, and fun leisure activities, pertaining to physics, and sciences.\n", 
+    "room" : "Weekly on Fridays at lunch in 617\n"
+},
+{
+    "club_name" : "Programming for Data Science Club (PDSC)\n", 
+    "category" : "Competitive and Academic\n", 
+    "desc" : "The Programming for Data Science Club teaches student technical and non-technical skills involved in data science. Students will acquire fundamental data analytical skills relatied to statistical modeling through hands-on analysis of real-world datasets such as economic data, health data, geographical data, and social networks. Club members will explore machine learning algorithims, statistical inference, data wrangling, and data visualization. They will learn programming languages (Python and R) and platforms (Google Collab) used for data analysis, workflows, and research. Students will also learn about the ethics side of data science and how it can (and will) impact people in the real world. Our weekly meetings will involve lessons covering these topics as well as workshops for building predictive models to participate in competitions.\n", 
+    "room" : "Weekly on Tuesdays at lunch in room 106\n"
+},
+{
+    "club_name" : "Psych Club\n", 
+    "category" : "Recreational\n", 
+    "desc" : "The PYSCH Club seeks to help its members become more well rounded and successful when living on their own. It seeks to give members practical skills everyone should know, but that are not necessarily taught in school or at home. \n", 
+    "room" : "Wednesday Weekly at Lunch in Room 706\n"
+},
+{
+    "club_name" : "Random Acts of Kindness\n", 
+    "category" : "Community Service and Recreational\n", 
+    "desc" : "The Random Acts of Kindness Club is dedicated to providing spontaneous and small acts of kindness in the MVHS school community. Our members design and assemble small gifts or messages to spread to peers throughout their school community in order to create a more positive environment on campus. Our club aims to interact with the community further through fundraising, with events including restaurant partnerships and bake sales. \n", 
+    "room" : "Bi Weekly on Wednesdays at lunch in room 731\n"
+},
+{
+    "club_name" : "Red Cross Club\n", 
+    "category" : "Community Service\n", 
+    "desc" : "Red Cross Club\u2019s purpose is to better our community by providing opportunities to local teens to volunteer through their local red cross chapter as well as giving them leadership experience through setting up their own fundraisers and volunteer events.\n", 
+    "room" : "Bi Weekly on Fridays at lunch in room 110\n"
+},
+{
+    "club_name" : "Russian Club\n", 
+    "category" : "Cultural\n", 
+    "desc" : "The Russian Club is a group whose members, Russian or not, are interested in embracing Russian culture. This includes celebrating Russian traditionas and going to local Russian events. Anyone interested in expanding their knowledge of Russian history, culture, and language is welcome to join!\n", 
+    "room" : "Monthly on Wednesdays at lunch in room 112\n"
+},
+{
+    "club_name" : "Sailing Club\n", 
+    "category" : "Competative\n", 
+    "desc" : "The Sailing Club is a club for anyone interested in sailing and learning more about the sport. As our club is designed for sailors of verying skill levels, including no prior experience, more experienced members will instruct less experienced sailors in order to allow everyone to gain new skills. We will host community events where club members will get on-the-water siling practice in addition to the classroom knowledge they gain in school\n", 
+    "room" : "Wednesdays weekly @lunch in P5\n"
+},
+{
+    "club_name" : "Science Olympiad\n", 
+    "category" : "Competitive and Academic\n", 
+    "desc" : "The MVHS Science Olympiad club educates and inspires students in all STEM (science, technology, engineering, and math) disciplines through hands-on activities. The club includes team members that compete at various Science Olympiad competitions, and also provides learning opportunities to explore science further. During workshop meetings we do lab activities, have subject expert lectures, and prepare for upcoming competitions.\n", 
+    "room" : "Monthly on Tuesdays at lunch in room 617\n"
+},
+{
+    "club_name" : "SLAM Magazine\n", 
+    "category" : "Academic\n", 
+    "desc" : "SLAM Magazine is an organization and publication that is dedicated to illuminating social justice issues in our community that don't receive mainstream attention. We strive to amplify unheard voices and provide insight and nuance into the gears of systems of oppression based on race, ethnicity, gender, ability, and other identities through the arts. For our team members, our organization provides career-applicable skills and experience in design, photography, media marketing, business, and writing or journalism. Students work with their teams and as an organization to produce two issues each year that get sold and distributed throughout the MVLA community.\n", 
+    "room" : "Weekly on Wednesdays after school in room 109\n"
+},
+{
+    "club_name" : "South Asian Student Union\n", 
+    "category" : "Cultural\n", 
+    "desc" : "The South Asian Student Union is a club where members will learn about South Asian Heritage, traditions, modern adaptations/stereotypes of India and also share their experiences at South Asians in America. Our club hopes to unite the South Asian Community in Mountain View High School and to build self pride and confidence in their race.\n", 
+    "room" : "Weekly on Thursdays at lunch in room 725\n"
+},
+{
+    "club_name" : "Spartan Buddies Club\n", 
+    "category" : "Awareness\n", 
+    "desc" : "We are a club that strives to build friendships between mainstream students with(our buddies)and without disabilities. We believe no matter what abilities you have, everyone deserves a friend. We hope to create a more inclusive environment at MVHS through friendships. \n", 
+    "room" : "Weekly on Thuesdays at lunch in room 708\n"
+},
+{
+    "club_name" : "Spartan Dance Club\n", 
+    "category" : "Recreational\n", 
+    "desc" : "Spartan Dance Club is a group whose members range from all types of backgrounds and levels of experience but come together as one to enjoy dance. Our goal is to spread positivity and joy through our passion for dance, and spread those feelings to our community audiences. Community events include dancing for Mountain View senior citizens at the senior center, performing in school rallies or at community events such as the Mountain View Tree Lighting, and performing and encouraging runners at the San Jose Turkey Trot. \n", 
+    "room" : "Weekly on Wednesdays after school in room P7\n"
+},
+{
+    "club_name" : "Spartan Robotics\n", 
+    "category" : "Academic, Competitive, Community Service, and Recreational\n", 
+    "desc" : "Achieve Anything, Break Boundaries, Create Communities\n", 
+    "room" : "Weekly on Wednesdays in room New Engineering Complex\n"
+},
+{
+    "club_name" : "Speech and Debate\n", 
+    "category" : "Competitive and Academic\n", 
+    "desc" : "At MVLASD, we believe Speech and Debate (also known as \"forensics\") is one of the most valuable activities a student can participate in. Participants develop research skills, strategies that will help them on standardized tests, and the ability to speak in front of large groups with poise and confidence. Students also see dramatic improvements in writing organization, clarity and concision of speech and prose, and the ability to think quickly, critically, and from multiple perspectives. Students learn to set goals, delineate the steps needed to achieve them, and then hit the ground running! Students make lifelong friends in speech and debate! High school is a critical period for developing social connections, and forensics students often say speech and debate feels like a second home to them. Please check out our website: mvlasd.club for more information.\n", 
+    "room" : "After school in the library\n"
+},
+{
+    "club_name" : "STEAM\n", 
+    "category" : "Community Service\n", 
+    "desc" : "The STEAM Club is a youth led organization whose goal is to bring opportunities and resources to the children of underprivileged communities in the Bay Area by teaching elementary school students STEM and art twice a month. \n", 
+    "room" : "Bi Weekly on Mondays at lunch in room 121\n"
+},
+{
+    "club_name" : "STEM Research Pioneers\n", 
+    "category" : "Academic\n", 
+    "desc" : "STEM Research Pioneers is a club that approaches striving MVHS students who are seeking research opportunities related to the STEM field. Specifically, the club aims to provide advanced research techniques and insights, and offer an online platform that showcases the publications of student research on an extensive scale. In addition, the club is a place where students passionate for research can collaboratively share their ideas and be involved in a tight-knit community of like-minded students who can work together to learn, explore, and grow in the fields of STEM. In the long term, the club can participate in research competitions like ISEF and also hold community presentations at MVHS. Separate from research opportunities and publications, the club invites guest speakers and professionals in respective fields to provide mentorship/insight on the topics of interest.\n", 
+    "room" : "Weekly on Thursdays at lunch in room 121\n"
+},
+{
+    "club_name" : "Sunrise Club\n", 
+    "category" : "Awarness\n", 
+    "desc" : "The sunrise club is our local school chapter of the national sunrise movement. Our goal is to combat climate chnage through advocacy, education, and action. We aim to be leaders in our community and advocate for what we believe in by taking charge to create the chnage we want to see, both regarding the neviorment aas well as othe rimportnat issues, such as the global pandemic. \n", 
+    "room" : "Tuesdays Monthly @lunch in room 212\n"
+},
+{
+    "club_name" : "UNICEF\n", 
+    "category" : "Awareness\n", 
+    "desc" : "Through a partnership with UNICEF International, our club works to defend the rights and save the lives of children across the globe. We do this through a variety of fundraiser events, including on-campus events and partnerships with other organizations.\n", 
+    "room" : "Bi Weekly at lunch in room P1\n"
+},
+{
+    "club_name" : "Unidos\n", 
+    "category" : "Community Service\n", 
+    "desc" : "The UNIDOS club tutors at local schools through partnering with the Beyond the Bell and CollegeBound after school programs. Beyond tutoring, we aim to provide elementary and middle school students with mentors that will share their experiences as students and community members and instill in the younger students the importance of academic dedication and positive values.\n", 
+    "room" : "Monthly on Mondays after school in room 611\n"
+},
+{
+    "club_name" : "Video Production Club\n", 
+    "category" : "Recreational\n", 
+    "desc" : "The Video Production club is a group of people who are passionate about video production, but don\u2019t have the finest skills or equipment, but we try to improve together and learn together. We will invite people to come watch our videos as a mini video production club \u201cfilm festival\u201d twice a year.  \n", 
+    "room" : "Weekly on Mondays at lunch in room 404\n"
+},
+{
+    "club_name" : "Weight-Lifting Club\n", 
+    "category" : "Recreational\n", 
+    "desc" : "The weight-lifting club is a group whose members will learn all about the sport/hobby of weight-ligting. Our members will be able to apply the knowledge we give them inside the gym. Our community event will be a group session at The City Sports off of grant road. \n", 
+    "room" : "Monthly, Friday at Lunch in Rm 409\n"
+},
+{
+    "club_name" : "Wellness Club\n", 
+    "category" : "Recreational\n", 
+    "desc" : "The wellness club provides a safe, positive space to students who need to de-stress during the school day. We plan to have coloring pages, games, and stress toys thats students can use druing lunch to destress and get their mind off of their test next period. \n", 
+    "room" : "Monday's Weekly @lunch in rm 702 \n"
+},
+{
+    "club_name" : "Women in STEM\n", 
+    "category" : "Community Service and Competitive\n", 
+    "desc" : "The Women in STEM club is a group whose members are interested in conducting research and using technology to solve real-world problems. We foster STEM learning through participating in women-oriented competitions such as the SWENext Club Challenge, the Toshiba Exploravision, and the MIT Think presentation. We are planning to build a model and analytics using data to solve environmental issues. \n", 
+    "room" : "Bi Weekly on Tuesdays at lunch in room 617\n"
+},
+{
+    "club_name" : "Women's Empowerment Club\n", 
+    "category" : "Community Service, Awareness \n", 
+    "desc" : "The goal of the Women's Empowerment club is to advocate for gender equality on a school-wide, community, and global basis. Through our participation in several service projects throughout the year as well as empowerment workshops, we hope to create a welcoming and safe space while making a positive impact in our community.\n", 
+    "room" : "Monthly on Tuesday at Lunch in Room 102\n"
+},
+{
+    "club_name" : "Taiwanese Student Union\n", 
+    "category" : "Cultural\n", 
+    "desc" : "The Taiwanese Student Union (TSU) aims to build a safe and inclusive enviorment at Mountain View High School where memebers are able to share their cultural experiences in Taiwan. This club will educate students on a culture not often talked about. This club will educate students on a culture not often talked about. The taiwanese student Union will also benefit each member's communication and speaking skills. Some topics we will cover include local attractions, different cities, and taiwanese food. \n", 
+    "room" : "Bi-weekly on friday's  at lunch in room ?\n"
+},
+{
+    "club_name" : "Clay club\n", 
+    "category" : "Recreational\n", 
+    "desc" : "Clay Club will offer an artictic enviorment to make ceramic art and build creative community. Our community event will show our MVHS community ceramic art in public displays and events will focus on raising funds and sharing the ceramics experiences with students and staff. \n", 
+    "room" : "Monthly on thrusdays in room 111\n"
+},
+{
+    "club_name" : "Feminism & Philosophy in Media\n", 
+    "category" : "Awarnness, Academic, Cultural\n", 
+    "desc" : "The Feminism and Philosophy in Media (FPM) is a club whose memebers are interested in how traditional patriarchal philosophy intereacts with the narratives of women to influence modern-day media. As a club, we will delve depper into how feminist media both unconciously and consiously reflects the ideals of various influential philosophers. In addition, we will learn about the lives of feminist and female philosophers - both past and present - who have worked to combat the foundations that the patriarchy is built on, as well as construct complex ideas of our own.\n", 
+    "room" : "Monday's Weekly @lunch in rm 702 \n"
+},
+{
+    "club_name" : "Information Security Club\n", 
+    "category" : "Competative, Recreational\n", 
+    "desc" : "The informational security club is dedicated to educating students about various aspects of offensive and defensive information security. Our community project is the contribution of code to make free and open source software even better, and contribution of writeups/tutorials online to assist beginning information security students.\n", 
+    "room" : "Tuesdays Weekly @lunch in rm 513 \n"
+},
+{
+    "club_name" : "Geography Club\n", 
+    "category" : "Academic\n", 
+    "desc" : "The purpose of geography club is to educate those who are interested in the vast locations of our world, as well as the cultures, histroy, and other facts about those places. We will presesnt enticing lectures and games tou our members, as well as give them the opportunity to lead those activites.\n", 
+    "room" : "Tuesdays Bi-weekly @lunch in rm 722\n"
+},
+{
+    "club_name" : "Photography Club\n", 
+    "category" : "None\n", 
+    "desc" : "The photography club is a recreational clu whose mission is to supply a photography club to students who can not accomidate another period in their schedules in and out of school. Photography club is a safe space where students with similar interest can learn how to take and edit pictures while hangingn out with friends and playing recreational games.\n", 
+    "room" : "Tuesday @lunch in rm 104 \n"
+},
+{
+    "club_name" : "Shark Tank Club\n", 
+    "category" : "Competitive\n", 
+    "desc" : "The shark tank club will give students various resources to prepare them for various buisness competitions and give students a chance to work with others  on their buisness ideas. The shark tank club will also allow students to work on their pitches, through our mock shark tank sessions.\n", 
+    "room" : "Monday's Bi-weekly @lunch in rm 413\n"
 }
     ]
 }
