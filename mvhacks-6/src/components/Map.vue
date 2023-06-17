@@ -6,9 +6,10 @@
     <img id="Map" src="../assets/map2.png">
 	<div id="BoxContainer">
 		
-		<MapBox v-for="mapbox in this.mapboxes" :x="mapbox.x" :y="mapbox.y" :width="mapbox.width" :height="mapbox.height" :text="mapbox.name" fontSize="8px" :color="mapbox.color" :on="mapbox.on" @click="someFunction"></MapBox>
+		<MapBox v-for="mapbox in this.mapboxes" :x="mapbox.x" :y="mapbox.y" :width="mapbox.width" :height="mapbox.height" :text="mapbox.name" fontSize="8px" :color="mapbox.color" :on="mapbox.on" @click="displayInfo(mapbox.name)"></MapBox>
 	</div>
 	<div id="RightSeparator"></div>
+    <div id="info"></div>
 	
 	<input v-on:keyup.enter="onEnter" />
 
@@ -1690,8 +1691,12 @@
 			document.getElementById("EventsView").classList.remove("notSelected");
 			this.view="events";
 		},
-		someFunction(){
-			alert("WORK");
+		displayInfo(room_name){
+            document.getElementById("info").innerHTML = "";
+			for (var i=0; i<this.clubs.length; i++) {
+                if (this.clubs[i]["room_number"] == room_name)
+                document.getElementById("info").innerHTML += this.clubs[i]["club_name"] + "<br>";
+            }
 		}
 		
       },
@@ -1953,6 +1958,13 @@
 	font-size:20px;
 	font-weight:500;
 	opacity:0;
+  }
+  #info{
+    position:absolute;
+    left:77%;
+    top:15%;
+    font-family: 'Open Sans', sans-serif;
+
   }
 
 
