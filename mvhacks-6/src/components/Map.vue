@@ -9,8 +9,9 @@
 		<MapBox v-for="mapbox in this.mapboxes" :x="mapbox.x" :y="mapbox.y" :width="mapbox.width" :height="mapbox.height" :text="mapbox.name" fontSize="8px" :color="mapbox.color" :on="mapbox.on" @click="displayInfo(mapbox.name)"></MapBox>
 	</div>
 	<div id="RightSeparator"></div>
-    <div id="info"></div>
-	
+    <div id="infoToday"></div>
+	<div id="infoOther"></div>
+
 	<input v-on:keyup.enter="onEnter" />
 
 
@@ -1692,17 +1693,27 @@
 			this.view="events";
 		},
 		displayInfo(room_name){
-            document.getElementById("info").innerHTML = "Clubs:<br>";
+            document.getElementById("infoToday").innerHTML = "Today's Clubs:<br>";
+            document.getElementById("infoOther").innerHTML = "Other Clubs:<br>";
+             const d = new Date();
+             const days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+             let dayNum = d.getDay(); 
+             var day = days[dayNum]
+
+             day = "friday"; // set to friday for debug purposes
             //clubs
 			for (var i=0; i<this.clubs.length; i++) {
-                if (this.clubs[i]["room_number"] == room_name)
-                document.getElementById("info").innerHTML += this.clubs[i]["club_name"] + ": " +this.clubs[i]["room"]  + "<br><br>";
+                // all clubs in room       
+                if (this.clubs[i]["room_number"] == room_name) {
+                    if ((this.clubs[i]["room"].toLowerCase()).includes(day)) { //if club is meeting TODAY
+                        document.getElementById("infoToday").innerHTML += this.clubs[i]["club_name"] + ": " +this.clubs[i]["room"]  + "<br><br>" + this.clubs[i]["desc"] + "<br><br>";
+                    }
+                    else { //all
+                        document.getElementById("infoOther").innerHTML += this.clubs[i]["club_name"] + ": " +this.clubs[i]["room"]  + "<br><br>";
+                    }
+                }
             }
-            //teachers
-            for (var i=0; i<this.clubs.length; i++) {
-                if (this.clubs[i]["room_number"] == room_name)
-                document.getElementById("info").innerHTML += this.clubs[i]["club_name"] + ": " +this.clubs[i]["room"]  + "<br><br>";
-            }
+ 
 		}
 		
       },
@@ -1965,10 +1976,17 @@
 	font-weight:500;
 	opacity:0;
   }
-  #info{
+  #infoToday{
     position:absolute;
     left:77%;
     top:15%;
+    font-family: 'Open Sans', sans-serif;
+
+  }
+    #infoOther{
+    position:absolute;
+    left:77%;
+    top:70%;
     font-family: 'Open Sans', sans-serif;
 
   }
