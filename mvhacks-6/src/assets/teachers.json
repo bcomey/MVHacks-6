@@ -1,0 +1,417 @@
+{
+    "teachers":
+    [
+
+{    "teacher" : "Advisor Name (First + Last)\n", 
+    "room" : "Club Meeting Time (ie. Wednesdays, biweekly @ lunch)\n"
+},
+{
+    "teacher" : "Abby Stucker\n", 
+    "room" : "Monthly on Fridays at lunch in room 604\n"
+},
+{
+    "teacher" : "Marcey Winawer\n", 
+    "room" : "Thursday Weekly in P5 during lunch\n"
+},
+{
+    "teacher" : "Ann Nguyen\n", 
+    "room" : "Weekly on Tuesdays at lunch in room 123\n"
+},
+{
+    "teacher" : "Seamus Quillinan\n", 
+    "room" : "Bi Weekly on Wednesdays at lunch in room 708\n"
+},
+{
+    "teacher" : "Edda Lieja\n", 
+    "room" : "Fridays with variable frequency in the gym (due to booking concerns)\n"
+},
+{
+    "teacher" : "David Cmaylo\n", 
+    "room" : "Bi Weekly on Fridays at lunch in room 121\n"
+},
+{
+    "teacher" : "David Ortiz\n", 
+    "room" : "Weekly on Tuesdays at lunch in room 720\n"
+},
+{
+    "teacher" : "Arielle Martinka\n", 
+    "room" : "Weekly on Tuesdays at lunch in room 113\n"
+},
+{
+    "teacher" : "Tami Kittle\n", 
+    "room" : "Weekly on Mondays at lunch in room 703\n"
+},
+{
+    "teacher" : "David Ortiz\n", 
+    "room" : "Weekly on Tuesdays at lunch in room 720\n"
+},
+{
+    "teacher" : "Brooke Mangin\n", 
+    "room" : "Weekly on Thursdays at lunch in 731\n"
+},
+{
+    "teacher" : "Christine Yow\n", 
+    "room" : "Weekly Thursday at Lunch in Room 120\n"
+},
+{
+    "teacher" : "Nate Bowen\n", 
+    "room" : "Weekly on Tuesdays at lunch in room 725\n"
+},
+{
+    "teacher" : "Annie Liu\n", 
+    "room" : "Weekly in Room 513 at Lunch\n"
+},
+{
+    "teacher" : "Annie Liu\n", 
+    "room" : "Bi Weekly on Wednesdays at lunch in room 409\n"
+},
+{
+    "teacher" : "Ly Nguyen\n", 
+    "room" : "Weekly on Fridays at lunch in room 806\n"
+},
+{
+    "teacher" : "Bill Dunbar\n", 
+    "room" : "Weekly on Thursdays at lunch in room 802\n"
+},
+{
+    "teacher" : "Jeff Morgan\n", 
+    "room" : "Weekly at lunch on Thursdays\n"
+},
+{
+    "teacher" : "Julie Song\n", 
+    "room" : "Weekly on Thursdays at lunch in room 102\n"
+},
+{
+    "teacher" : "Marcey Winawer\n", 
+    "room" : "Monday's weekly @lunch in P5 \n"
+},
+{
+    "teacher" : "Ariele Wildwind\n", 
+    "room" : "Weekly on Tuesdays and Thursdays at lunch in room 419\n"
+},
+{
+    "teacher" : "Pancho Morris\n", 
+    "room" : "Weekly Thursdays at lunch in room 413\n"
+},
+{
+    "teacher" : "Jennifer Chiu\n", 
+    "room" : "Bi Weekly on Wednesdays at lunch in room 513\n"
+},
+{
+    "teacher" : "Brook Mangin\n", 
+    "room" : "Monthly on Thrusdays at lunch in room 731\n"
+},
+{
+    "teacher" : "Rafael Alapont\n", 
+    "room" : "Bi-Weekly on Fridays at lunch in Room 411\n"
+},
+{
+    "teacher" : "Meghan Engle\n", 
+    "room" : "Bi-Weekly on Wednesdays and Lunch in Room 110\n"
+},
+{
+    "teacher" : "Latina Wharton\n", 
+    "room" : "Thursday 2x a month at lunch\n"
+},
+{
+    "teacher" : "Nora Engle-hall\n", 
+    "room" : "Weekly on wednesday @lunch\n"
+},
+{
+    "teacher" : "Clotilde Gres\n", 
+    "room" : "Weekly Thursdays at lunch in room 603\n"
+},
+{
+    "teacher" : "Clotilde Gres\n", 
+    "room" : "Weekly Friday at lunch in room 603\n"
+},
+{
+    "teacher" : "Brendan Dilloughry\n", 
+    "room" : "Weekly on Thursdays at lunch in room 801\n"
+},
+{
+    "teacher" : "Ly Nguyen\n", 
+    "room" : "Bi Weekly on Thursdays in room 806\n"
+},
+{
+    "teacher" : "Wei Lu\n", 
+    "room" : "Weekly on Fridays at lunch in room 602\n"
+},
+{
+    "teacher" : "Allison Pfeifer\n", 
+    "room" : "Weekly on Tuesdays at lunch in room 117\n"
+},
+{
+    "teacher" : "Felitia Hancock\n", 
+    "room" : "Weekly on Fridays at Lunch in Room 726\n"
+},
+{
+    "teacher" : "Kristen Drolshagen\n", 
+    "room" : "Weekly on Fridays at luncj in room 314\n"
+},
+{
+    "teacher" : "Carla Gomez\n", 
+    "room" : "Weekly on Tuesdays at lunch in room 212\n"
+},
+{
+    "teacher" : "Brook Margin-Hinkley\n", 
+    "room" : "3x/Month on thursdays @lunch in room 731\n"
+},
+{
+    "teacher" : "Lee Casem\n", 
+    "room" : "Bi Weekly on Fridays at lunch in room 705\n"
+},
+{
+    "teacher" : "Ann Nguyen\n", 
+    "room" : "Weekly on Fridays at lunch in room 123\n"
+},
+{
+    "teacher" : "Julie Yick\n", 
+    "room" : "Bi Weekly on Fridays at lunch in room 729\n"
+},
+{
+    "teacher" : "Nate Bowen\n", 
+    "room" : "Bi Weekly Wednesdays at lunch in room 803\n"
+},
+{
+    "teacher" : "Minako Walther\n", 
+    "room" : "Weekly on Thursdays at lunch in room 601\n"
+},
+{
+    "teacher" : "Minako Walther\n", 
+    "room" : "Tuesdays Monthly @lunch in room 601\n"
+},
+{
+    "teacher" : "Kevin Heiken\n", 
+    "room" : "Bi Weekly On Mondays at lunch in room 728\n"
+},
+{
+    "teacher" : "Lauren Kato\n", 
+    "room" : "Weekly on Thursdays at lunch in room P7\n"
+},
+{
+    "teacher" : "Brook Mangin\n", 
+    "room" : "Bi Weekly Wednesdays at lunch in room 731\n"
+},
+{
+    "teacher" : "Meghan Engle\n", 
+    "room" : "Weekly on Mondays at lunch in room 110\n"
+},
+{
+    "teacher" : "Julie Song\n", 
+    "room" : "Tuesdays Bi-Weekly at Lunch in Rm 102\n"
+},
+{
+    "teacher" : "David Marroquin\n", 
+    "room" : "Friday's weekly @lunch in rm 720\n"
+},
+{
+    "teacher" : "None\n", 
+    "room" : "Wednesday Weekly at Lunch in Room 806\n"
+},
+{
+    "teacher" : "Julie Yick\n", 
+    "room" : "Bi Weekly on Thursdays in room 729\n"
+},
+{
+    "teacher" : "Anthony Gallego\n", 
+    "room" : "Weekly on Fridays at lunch in room 125\n"
+},
+{
+    "teacher" : "Ariele Wildwind\n", 
+    "room" : "Weekly on Mondays at lunch on zoom\n"
+},
+{
+    "teacher" : "Edda Leija\n", 
+    "room" : "Bi weekly on wednesday @lunch in room 107 \n"
+},
+{
+    "teacher" : "Annie Liu\n", 
+    "room" : "Weekly on Wednesdays at lunch\n"
+},
+{
+    "teacher" : "Ms. Wildwind \n", 
+    "room" : "Bi weekly on mondays @lunch in room 419\n"
+},
+{
+    "teacher" : "Ning Xu\n", 
+    "room" : "Weekly on Wednesdays at lunch\n"
+},
+{
+    "teacher" : "Tami Kittle\n", 
+    "room" : "Bi Weekly on Wednesdays at lunch in room TBD\n"
+},
+{
+    "teacher" : "Kristen Drolshagen; Latina Wharton\n", 
+    "room" : "Weekly on Tuesdays after school in the library\n"
+},
+{
+    "teacher" : "Ricky Alegria\n", 
+    "room" : "Thursday, Biweekly in Packard Hall\n"
+},
+{
+    "teacher" : "Frosty Gross\n", 
+    "room" : "Weekly on Wednesdays at lunch in Room 106\n"
+},
+{
+    "teacher" : "David Ortiz\n", 
+    "room" : "Monthly on Mondays at lunch in room 102\n"
+},
+{
+    "teacher" : "Pancho Morris\n", 
+    "room" : "Monday through Thursday Weekly starting after the Spartan Theatre Company spring musical\n"
+},
+{
+    "teacher" : "Mathew Austin\n", 
+    "room" : "Bi-weekly, Thursdays at Lunch in room 722\n"
+},
+{
+    "teacher" : "Allison Pfeifer\n", 
+    "room" : "Bi Weekly on Thursdays at lunch in room 117\n"
+},
+{
+    "teacher" : "None\n", 
+    "room" : "None\n"
+},
+{
+    "teacher" : "Kevin Heiken\n", 
+    "room" : "weekly on fridays @ lunch in room ??\n"
+},
+{
+    "teacher" : "Meghan Engle\n", 
+    "room" : "Weekly on Tuesdays at lunch in room 110\n"
+},
+{
+    "teacher" : "Jeff Panos\n", 
+    "room" : "None\n"
+},
+{
+    "teacher" : "Brian Perrymen\n", 
+    "room" : "Wednesday Bi-weekly @ lunch in rm 511\n"
+},
+{
+    "teacher" : "Julie Song\n", 
+    "room" : "Bi Weekly on Wednesdays at lunch in the library\n"
+},
+{
+    "teacher" : "Ning Xu\n", 
+    "room" : "Weekly on Fridays at lunch in 617\n"
+},
+{
+    "teacher" : "Mia Newton\n", 
+    "room" : "Weekly on Tuesdays at lunch in room 106\n"
+},
+{
+    "teacher" : "Sophia Caramagno\n", 
+    "room" : "Wednesday Weekly at Lunch in Room 706\n"
+},
+{
+    "teacher" : "Brook Mangin\n", 
+    "room" : "Bi Weekly on Wednesdays at lunch in room 731\n"
+},
+{
+    "teacher" : "Meghan Engle\n", 
+    "room" : "Bi Weekly on Fridays at lunch in room 110\n"
+},
+{
+    "teacher" : "Lyuda Shemyakina\n", 
+    "room" : "Monthly on Wednesdays at lunch in room 112\n"
+},
+{
+    "teacher" : "Marcey Winawer\n", 
+    "room" : "Wednesdays weekly @lunch in P5\n"
+},
+{
+    "teacher" : "Ning Xu\n", 
+    "room" : "Monthly on Tuesdays at lunch in room 617\n"
+},
+{
+    "teacher" : "Lori Nock\n", 
+    "room" : "Weekly on Wednesdays after school in room 109\n"
+},
+{
+    "teacher" : "Nate Bowen\n", 
+    "room" : "Weekly on Thursdays at lunch in room 725\n"
+},
+{
+    "teacher" : "Seamus Quillinan\n", 
+    "room" : "Weekly on Thuesdays at lunch in room 708\n"
+},
+{
+    "teacher" : "Lauren Camarillo\n", 
+    "room" : "Weekly on Wednesdays after school in room P7\n"
+},
+{
+    "teacher" : "Wyn Schu\n", 
+    "room" : "Weekly on Wednesdays in room New Engineering Complex\n"
+},
+{
+    "teacher" : "Julie Herman\n", 
+    "room" : "After school in the library\n"
+},
+{
+    "teacher" : "David Cmaylo\n", 
+    "room" : "Bi Weekly on Mondays at lunch in room 121\n"
+},
+{
+    "teacher" : "David Cmaylo\n", 
+    "room" : "Weekly on Thursdays at lunch in room 121\n"
+},
+{
+    "teacher" : "Nora EngleHall\n", 
+    "room" : "Tuesdays Monthly @lunch in room 212\n"
+},
+{
+    "teacher" : "Marcia Babiak\n", 
+    "room" : "Bi Weekly at lunch in room P1\n"
+},
+{
+    "teacher" : "Jeff Morgan\n", 
+    "room" : "Monthly on Mondays after school in room 611\n"
+},
+{
+    "teacher" : "Annie Liu\n", 
+    "room" : "Weekly on Mondays at lunch in room 404\n"
+},
+{
+    "teacher" : "Annie Liu\n", 
+    "room" : "Monthly, Friday at Lunch in Rm 409\n"
+},
+{
+    "teacher" : "Kimberly Marks\n", 
+    "room" : "Monday's Weekly @lunch in rm 702 \n"
+},
+{
+    "teacher" : "Ning Xu\n", 
+    "room" : "Bi Weekly on Tuesdays at lunch in room 617\n"
+},
+{
+    "teacher" : "Julie Song\n", 
+    "room" : "Monthly on Tuesday at Lunch in Room 102\n"
+},
+{
+    "teacher" : "Jennifer Chiu\n", 
+    "room" : "Bi-weekly on friday's  at lunch in room ?\n"
+},
+{
+    "teacher" : "Jessica Cohen-Bender\n", 
+    "room" : "Monthly on thrusdays in room 111\n"
+},
+{
+    "teacher" : "Maria Carter-Gianni\n", 
+    "room" : "Monday's Weekly @lunch in rm 702 \n"
+},
+{
+    "teacher" : "Jennifer Chiu\n", 
+    "room" : "Tuesdays Weekly @lunch in rm 513 \n"
+},
+{
+    "teacher" : "Matthew Austin\n", 
+    "room" : "Tuesdays Bi-weekly @lunch in rm 722\n"
+},
+{
+    "teacher" : "Kevin Heiken\n", 
+    "room" : "Tuesday @lunch in rm 104 \n"
+}
+    ]
+}
