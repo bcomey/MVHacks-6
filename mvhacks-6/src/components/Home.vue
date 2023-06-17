@@ -1,10 +1,14 @@
 <template>
+  <router-link to="/" id="Home">MVHS Logistic Map</router-link>
+  <VButton x="80%" y="3%" width="120px" height="60px" text="About" fontSize="25px" styl="secondary" borderRadius="10px"></VButton>
+  <VButton x="90%" y="3%" width="120px" height="60px" text="Map" fontSize="25px" styl="normal" borderRadius="10px"></VButton>
+  <div id="HeaderSeparator"></div>
   <div id="Pitch">One Map for</div>
   <div id="Pitch2" class="linear-wipe"><b>Everything</b></div>
   <div id="SubPitch">Introducing the MVHS Logistic Map.</div>
   <img src='../assets/map.jpg' id="MapArt">
   <VButton x="19%" y="65%" width="200px" height="60px" text="View Map" fontSize="30px" styl="normal" borderRadius="10px"></VButton>
-   <VButton x="19%" y="75%" width="200px" height="60px" text="Learn More" fontSize="25px" styl="secondary" borderRadius="10px"></VButton>
+  <VButton x="19%" y="75%" width="200px" height="60px" text="Learn More" fontSize="25px" styl="secondary" borderRadius="10px"></VButton>
 </template>
 
 <script>
@@ -94,6 +98,31 @@ export default {
 	0% { transform: translate(0,  0px); }
     50%  { transform: translate(0px, 25px); }
     100%   { transform: translate(-0, -0px); }   
+}
+#Home{
+	width:20%;
+	position:absolute;
+	left:0%;
+	height:10%;
+	top:0%;
+	display:flex;
+	align-items:center;
+	text-align:left;
+	text-decoration:none;
+	padding-left:40px;
+	padding-top:10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:40px;
+	font-weight:600;
+	color:black;
+}
+#HeaderSeparator{
+	background-color:rgba(0,0,0,0.1);
+	width:100%;
+	position:absolute;
+	left:0%;
+	top:12%;
+	height:2px;
 }
 </style>
 
