@@ -54,5 +54,6 @@ div{
 	align-items:center;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:600;
+	text-align:center;
 }
 </style>
