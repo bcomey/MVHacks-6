@@ -7,8 +7,11 @@
   <div id="Pitch2" class="linear-wipe"><b>Everything</b></div>
   <div id="SubPitch">Introducing the MVHS Logistic Map.</div>
   <img src='../assets/map.jpg' id="MapArt">
-  <VButton x="19%" y="65%" width="200px" height="60px" text="View Map" fontSize="30px" styl="normal" borderRadius="10px" @click = "goToMap"></VButton>
-  <VButton x="19%" y="75%" width="200px" height="60px" text="Learn More" fontSize="25px" styl="secondary" borderRadius="10px"></VButton>
+  <VButton x="19%" y="65%" width="200px" height="70px" text="View Map" fontSize="30px" styl="normal" borderRadius="10px" @click = "goToMap"></VButton>
+  <VButton x="19%" y="75%" width="200px" height="70px" text="Learn More" fontSize="25px" styl="secondary" borderRadius="10px"></VButton>
+  <div id="MapInfo">For Spartans, By Spartans</div>
+  <div id="MapSubInfo">We give you the information you need about lunch places, club meetings, teacher rooms, events, and more, all on one simple MVHS campus map.</div>
+  <img src='../assets/spartan.png' id="SpartanArt">
 </template>
 
 <script>
@@ -129,5 +132,32 @@ export default {
 	top:12%;
 	height:2px;
 }
+#SpartanArt{
+	position:absolute;
+	top:105%;
+	left:10%;
+  }
+  #MapInfo{
+	font-size:50px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	position:absolute;
+	left:45%;
+	top:110%;
+	width:50%;
+	text-align:center;
+	
+  }	
+  #MapSubInfo{
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight:500;
+	position:absolute;
+	left:55%;
+	top:120%;
+	width:30%;
+	text-align:center;
+	
+  }	
 </style>
 

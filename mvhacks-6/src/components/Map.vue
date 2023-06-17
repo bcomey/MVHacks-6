@@ -5,7 +5,11 @@
     <div id="HeaderSeparator"></div>
     <img id="Map" src="../assets/map2.png">
 	<div id="BoxContainer">
-		<MapBox x="13.13%" y="28.86%" width="195px" height="220px" text="park" fontSize="20px" color="blue" on="false"></MapBox>
+		<MapBox x="13.133%" y="28.867%" width="20.067%" height="22.867%" text="parking" fontSize="20px" color="#c2ffd3" on="true"></MapBox>
+		<MapBox x="26.933%" y="60.533%" width="2.467%" height="2.2%" text="315" fontSize="10px" color="#c2ffd3" on="true"></MapBox>
+		<MapBox x="51.2%" y="78.467%" width="2.467%" height="2.267%" text="503" fontSize="10px" color="#c2ffd3" on="true"></MapBox>
+		<MapBox x="53.467%" y="78.467%" width="2.467%" height="2.267%" text="504" fontSize="10px" color="#c2ffd3" on="true"></MapBox>
+
 	</div>
 	<div id="RightSeparator"></div>
 	<div id="ViewSelector">
@@ -21,7 +25,13 @@
   import VButton from "./VButton.vue";
   import MapBox from "./MapBox.vue";
   export default {
-      components:{
+      data(){
+		return{
+			view:"clubs",
+			mapboxes:"",
+		}
+	  },
+	  components:{
           VButton,
 		  MapBox,
       },
@@ -296,6 +306,7 @@
 	font-weight:500;
 	opacity:0;
   }
+  
 </style>
   
   
