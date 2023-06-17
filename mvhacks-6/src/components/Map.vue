@@ -1675,10 +1675,16 @@
 			this.view="events";
 		},
 		displayInfo(room_name){
-            document.getElementById("info").innerHTML = "";
+            document.getElementById("info").innerHTML = "Clubs:<br>";
+            //clubs
 			for (var i=0; i<this.clubs.length; i++) {
                 if (this.clubs[i]["room_number"] == room_name)
-                document.getElementById("info").innerHTML += this.clubs[i]["club_name"] + "<br>";
+                document.getElementById("info").innerHTML += this.clubs[i]["club_name"] + ": " +this.clubs[i]["room"]  + "<br><br>";
+            }
+            //teachers
+            for (var i=0; i<this.clubs.length; i++) {
+                if (this.clubs[i]["room_number"] == room_name)
+                document.getElementById("info").innerHTML += this.clubs[i]["club_name"] + ": " +this.clubs[i]["room"]  + "<br><br>";
             }
 		}
 		
