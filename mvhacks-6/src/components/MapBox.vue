@@ -1,5 +1,5 @@
 <template>
-	<div :style="css">{{text}}</div>
+	<div @click="$emit('click')" :style="css">{{text}}</div>
 </template>
 
 <script>

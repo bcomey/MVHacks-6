@@ -6,7 +6,7 @@
     <img id="Map" src="../assets/map2.png">
 	<div id="BoxContainer">
 		
-		<MapBox v-for="mapbox in this.mapboxes" :x="mapbox.x" :y="mapbox.y" :width="mapbox.width" :height="mapbox.height" :text="mapbox.name" fontSize="8px" color="#c2ffd3" :on="mapbox.on" @click="displayInfo(mapbox.name)"></MapBox>
+		<MapBox v-for="mapbox in this.mapboxes" :x="mapbox.x" :y="mapbox.y" :width="mapbox.width" :height="mapbox.height" :text="mapbox.name" fontSize="8px" :color="mapbox.color" :on="mapbox.on" @click="displayInfo(mapbox.name)"></MapBox>
 	</div>
 	<div id="RightSeparator"></div>
     <div id="info"></div>
@@ -24,6 +24,23 @@
       data(){
 		return{
 			view:"clubs",
+			events:[
+			{
+				"event_name" : "Spartan Pause",
+				"desc" : "Spartan Pause is where Spartans can relax with fun activities, including animals, drawing, and food!",
+				"room_number" : "Main Quad",
+			}],
+			lunch:[
+			{
+				"lunch_name" : "Cafeteria",
+				"food": "food, food, more food",
+				"room_number" : "Cafeteria",
+			},
+			{
+				"lunch_name" : "Pizza Cart",
+				"food" : "Cheese pizza, pepperoni pizza",
+				"room_number" : "Theater"
+			}],
 			clubs:[
 {
     "club_name" : "6th Man\n", 
@@ -1690,6 +1707,29 @@
 		
       },
       created(){
+		for(var i=0;i<this.mapboxes.length;i++){
+			this.mapboxes[i].color="yellow";
+		}
+		var eventRooms=[];
+		for(var i=0;i<this.events.length;i++){
+			eventRooms.push(this.events[i].room_number);
+		}
+		for(var i=0;i<this.mapboxes.length;i++){
+			if(eventRooms.includes(this.mapboxes[i].name)){
+				this.mapboxes[i].on="true";
+				this.mapboxes[i].color="yellow";
+			}
+		}
+		var lunchRooms=[];
+		for(var i=0;i<this.lunch.length;i++){
+			lunchRooms.push(this.lunch[i].room_number);
+		}
+		for(var i=0;i<this.mapboxes.length;i++){
+			if(lunchRooms.includes(this.mapboxes[i].name)){
+				this.mapboxes[i].on="true";
+				this.mapboxes[i].color="blue";
+			}
+		}
 		var rooms=[];
 		for(var i=0;i<this.clubs.length;i++){
 			rooms.push(this.clubs[i].room_number);
@@ -1698,8 +1738,12 @@
 		for(var i=0;i<this.mapboxes.length;i++){
 			if(rooms.includes(this.mapboxes[i].name)){
 				this.mapboxes[i].on="true";
+				this.mapboxes[i].color="green";
 			}
 		}
+		
+		
+		
 		
       },
   }
