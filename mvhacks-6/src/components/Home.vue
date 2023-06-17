@@ -1,7 +1,7 @@
 <template>
   <router-link to="/" id="Home">MVHS Logistic Map</router-link>
   <VButton x="80%" y="3%" width="120px" height="60px" text="About" fontSize="25px" styl="secondary" borderRadius="10px" @click = "goToAbout"></VButton>
-  <VButton x="90%" y="3%" width="120px" height="60px" text="Map" fontSize="25px" styl="normal" borderRadius="10px"></VButton>
+  <VButton x="90%" y="3%" width="120px" height="60px" text="Map" fontSize="25px" styl="normal" borderRadius="10px" @click="goToMap"></VButton>
   <div id="HeaderSeparator"></div>
   <div id="Pitch">One Map for</div>
   <div id="Pitch2" class="linear-wipe"><b>Everything</b></div>
@@ -19,11 +19,14 @@ export default {
 	},
 	methods:{
 		goToAbout(){
-              window.location.href = "/about";
-          }
+            window.location.href = "/about";
+        },
+		goToMap(){
+            window.location.href = "/map";
+        },
 	},
 	mounted(){
-        this.test() 
+         
 	},
 }
 </script>
