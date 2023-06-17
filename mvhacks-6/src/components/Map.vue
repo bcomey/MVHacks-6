@@ -5,11 +5,8 @@
     <div id="HeaderSeparator"></div>
     <img id="Map" src="../assets/map2.png">
 	<div id="BoxContainer">
-		<MapBox x="13.133%" y="28.867%" width="20.067%" height="22.867%" text="parking" fontSize="20px" color="#c2ffd3" on="true"></MapBox>
-		<MapBox x="26.933%" y="60.533%" width="2.467%" height="2.2%" text="315" fontSize="10px" color="#c2ffd3" on="true"></MapBox>
-		<MapBox x="51.2%" y="78.467%" width="2.467%" height="2.267%" text="503" fontSize="10px" color="#c2ffd3" on="true"></MapBox>
-		<MapBox x="53.467%" y="78.467%" width="2.467%" height="2.267%" text="504" fontSize="10px" color="#c2ffd3" on="true"></MapBox>
-
+		
+		<MapBox v-for="mapbox in mapboxes" :x="mapbox.x" :y="mapbox.y" :width="mapbox.width" :height="mapbox.height" :text="mapbox.name" fontSize="10px" color="#c2ffd3" on="false"></MapBox>
 	</div>
 	<div id="RightSeparator"></div>
 	<div id="ViewSelector">
@@ -19,21 +16,25 @@
 		<button id="TeachersView" @click="selectTeachers" class="notSelected">Teachers</button>
 		<button id="EventsView" @click="selectEvents" class="notSelected">Events</button>
 	</div>
+	<VInput v-if="view=='teachers'"  x="80%" y="70%" width="250px" height="70px" fontSize="20px" label="Find a Teacher's Room"></VInput>
 	
   </template>
 <script>
   import VButton from "./VButton.vue";
   import MapBox from "./MapBox.vue";
+  import VInput from "./VInput.vue";
   export default {
       data(){
 		return{
 			view:"clubs",
 			mapboxes:"",
+
 		}
 	  },
 	  components:{
           VButton,
 		  MapBox,
+		  VInput,
       },
       methods:{
           goToAbout(){
@@ -51,6 +52,7 @@
 			document.getElementById("LunchView").classList.add("notSelected");
 			document.getElementById("TeachersView").classList.add("notSelected");
 			document.getElementById("EventsView").classList.add("notSelected");
+			this.view="clubs";
 		},
 		selectLunch(){
 			document.getElementById("ClubsView").style.backgroundColor="rgba(100,100,100,0.05)";
@@ -61,6 +63,7 @@
 			document.getElementById("LunchView").classList.remove("notSelected");
 			document.getElementById("TeachersView").classList.add("notSelected");
 			document.getElementById("EventsView").classList.add("notSelected");
+			this.view="lunch";
 		},
 		selectTeachers(){
 			document.getElementById("ClubsView").style.backgroundColor="rgba(100,100,100,0.05)";
@@ -71,6 +74,7 @@
 			document.getElementById("LunchView").classList.add("notSelected");
 			document.getElementById("TeachersView").classList.remove("notSelected");
 			document.getElementById("EventsView").classList.add("notSelected");
+			this.view="teachers";
 		},
 		selectEvents(){
 			document.getElementById("ClubsView").style.backgroundColor="rgba(100,100,100,0.05)";
@@ -81,6 +85,7 @@
 			document.getElementById("LunchView").classList.add("notSelected");
 			document.getElementById("TeachersView").classList.add("notSelected");
 			document.getElementById("EventsView").classList.remove("notSelected");
+			this.view="events";
 		},
 		
       },

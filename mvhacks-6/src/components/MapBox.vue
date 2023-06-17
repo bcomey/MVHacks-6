@@ -42,7 +42,7 @@ export default{
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
 div{
 	position:absolute;
-	left:calc(var(--x) - var(--width) / 2 + 10px);
+	left:calc(var(--x) - var(--width) / 2 + 3px + var(--x) / 70);
 	top:calc(var(--y) - var(--height) / 2 + 2px);
 	width:calc(var(--width) - 3px);
 	height:calc(var(--height) - 3px);
