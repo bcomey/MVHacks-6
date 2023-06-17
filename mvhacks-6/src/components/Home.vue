@@ -24,9 +24,6 @@ export default {
 		goToMap(){
             window.location.href = "/map";
         },
-		goToClubs(){
-            window.location.href = "/clubs";
-        },
 	},
 	mounted(){
          
