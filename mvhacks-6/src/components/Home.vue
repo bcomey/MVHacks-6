@@ -4,7 +4,7 @@
 
 <script>
 export default {
- 
+ alert("!");
 }
 </script>
 
