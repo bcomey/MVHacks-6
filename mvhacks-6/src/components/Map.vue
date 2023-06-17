@@ -4,7 +4,11 @@
     <VButton x="90%" y="3%" width="120px" height="60px" text="Map" fontSize="25px" styl="normal" borderRadius="10px"></VButton>
     <div id="HeaderSeparator"></div>
     <img id="Map" src="../assets/map2.png">
+	<div id="BoxContainer">
+		<MapBox x="13.13%" y="28.86%" width="195px" height="220px" text="park" fontSize="20px" color="blue" on="false"></MapBox>
+	</div>
 	<div id="RightSeparator"></div>
+	
   </template>
 <script>
   import VButton from "./VButton.vue";
@@ -139,6 +143,14 @@
 	position:absolute;
 	top:0%;
 	left:30%;
+	
+  }
+  #BoxContainer{
+	height:100%;
+	position:absolute;
+	top:0%;
+	left:30%;
+	width:952px;
   }
 </style>
   
