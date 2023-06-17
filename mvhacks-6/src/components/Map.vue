@@ -16,7 +16,9 @@
 		<button id="TeachersView" @click="selectTeachers" class="notSelected">Teachers</button>
 		<button id="EventsView" @click="selectEvents" class="notSelected">Events</button>
 	</div>
-	<VInput v-if="view=='teachers'"  x="80%" y="70%" width="250px" height="70px" fontSize="20px" label="Find a Teacher's Room"></VInput>
+	<input v-on:keyup.enter="onEnter" />
+
+
 	
   </template>
 <script>
@@ -86,6 +88,9 @@
 			document.getElementById("TeachersView").classList.add("notSelected");
 			document.getElementById("EventsView").classList.remove("notSelected");
 			this.view="events";
+		},
+		onEnter(){
+			console.log("enter");
 		},
 		
       },
@@ -311,7 +316,8 @@
 	font-weight:500;
 	opacity:0;
   }
-  
+
+
 </style>
   
   
