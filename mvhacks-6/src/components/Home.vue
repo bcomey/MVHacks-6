@@ -7,7 +7,7 @@
   <div id="Pitch2" class="linear-wipe"><b>Everything</b></div>
   <div id="SubPitch">Introducing the MVHS Logistic Map.</div>
   <img src='../assets/map.jpg' id="MapArt">
-  <VButton x="19%" y="65%" width="200px" height="60px" text="View Map" fontSize="30px" styl="normal" borderRadius="10px"></VButton>
+  <VButton x="19%" y="65%" width="200px" height="60px" text="View Map" fontSize="30px" styl="normal" borderRadius="10px" @click = "goToMap"></VButton>
   <VButton x="19%" y="75%" width="200px" height="60px" text="Learn More" fontSize="25px" styl="secondary" borderRadius="10px"></VButton>
 </template>
 
