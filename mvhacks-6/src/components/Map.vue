@@ -9,8 +9,16 @@
 		<MapBox v-for="mapbox in this.mapboxes" :x="mapbox.x" :y="mapbox.y" :width="mapbox.width" :height="mapbox.height" :text="mapbox.name" fontSize="8px" color="#c2ffd3" :on="mapbox.on" @click="someFunction"></MapBox>
 	</div>
 	<div id="RightSeparator"></div>
-	
-	<VInput v-if="view=='teachers'"  x="2%" y="20%" width="300px" height="50px" fontSize="20px" label="Find a Teacher's Room"></VInput>
+	<div id="ViewSelector">
+		<div id="ViewLabel">Select View</div>
+		<button id="ClubsView" @click="selectClubs" class="">Clubs</button>
+		<button id="LunchView" @click="selectLunch" class="notSelected">Lunch</button>
+		<button id="TeachersView" @click="selectTeachers" class="notSelected">Teachers</button>
+		<button id="EventsView" @click="selectEvents" class="notSelected">Events</button>
+	</div>
+	<input v-on:keyup.enter="onEnter" />
+
+
 	
   </template>
 <script>
@@ -1907,7 +1915,8 @@
 	font-weight:500;
 	opacity:0;
   }
-  
+
+
 </style>
   
   
