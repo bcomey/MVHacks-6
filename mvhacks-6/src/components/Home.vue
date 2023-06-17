@@ -18,9 +18,9 @@ export default {
 		VButton,
 	},
 	methods:{
-	test() {
-        alert("!");
-    }
+		goToAbout(){
+              window.location.href = "/about";
+          }
 	},
 	mounted(){
         this.test() 
