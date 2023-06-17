@@ -9,13 +9,7 @@
 		<MapBox v-for="mapbox in this.mapboxes" :x="mapbox.x" :y="mapbox.y" :width="mapbox.width" :height="mapbox.height" :text="mapbox.name" fontSize="8px" color="#c2ffd3" :on="mapbox.on" @click="someFunction"></MapBox>
 	</div>
 	<div id="RightSeparator"></div>
-	<div id="ViewSelector">
-		<div id="ViewLabel">Select View</div>
-		<button id="ClubsView" @click="selectClubs" class="">Clubs</button>
-		<button id="LunchView" @click="selectLunch" class="notSelected">Lunch</button>
-		<button id="TeachersView" @click="selectTeachers" class="notSelected">Teachers</button>
-		<button id="EventsView" @click="selectEvents" class="notSelected">Events</button>
-	</div>
+	
 	<input v-on:keyup.enter="onEnter" />
 
 
@@ -1684,13 +1678,14 @@
 		}
 		
       },
-      mounted(){
+      created(){
 		var rooms=[];
 		for(var i=0;i<this.clubs.length;i++){
 			rooms.push(this.clubs[i].room_number);
 		}
+		
 		for(var i=0;i<this.mapboxes.length;i++){
-			if(rooms.contains(this.mapboxes[i].name)){
+			if(rooms.includes(this.mapboxes[i].name)){
 				this.mapboxes[i].on="true";
 			}
 		}
