@@ -18,13 +18,12 @@ export default {
 		VButton,
 	},
 	methods:{
-		goToAbout(){
-			window.location.href = "/about";
-		}
-	
+	test() {
+        alert("!");
+    }
 	},
 	mounted(){
-	
+        this.test() 
 	},
 }
 </script>
