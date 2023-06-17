@@ -4,7 +4,7 @@
     <VButton x="90%" y="3%" width="120px" height="60px" text="Map" fontSize="25px" styl="normal" borderRadius="10px"></VButton>
     <div id="HeaderSeparator"></div>
     <img id="Map" src="../assets/map2.png">
-	
+	<div id="RightSeparator"></div>
   </template>
 <script>
   import VButton from "./VButton.vue";
@@ -125,6 +125,14 @@
       left:0%;
       top:12%;
       height:2px;
+  }
+  #RightSeparator{
+      background-color:rgba(0,0,0,0.1);
+      height:88%;
+      position:absolute;
+      left:75%;
+      top:12%;
+		width:2px;
   }
   #Map{
 	height:100%;
