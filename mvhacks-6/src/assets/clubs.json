@@ -1,0 +1,401 @@
+{
+    "clubs":
+    [
+    {
+        "club_name" : "6th Man\n", 
+        "category" : "Recreational\n", 
+        "desc" : "6th man is a spirit based club that supports Mountain View sports. Members of 6th man attempt to boost school spirit and help sports teams feel supported and play better. 6th man brings the entire school together and builds a community that no other club can. \n", 
+        "room" : "Monthly on Fridays at lunch in room 604\n"
+    },
+    {
+        "club_name" : "Algorithmic Programming Club\n", 
+        "category" : "Academic\n", 
+        "desc" : "The Competitive Programming CLub is a group whose members are interested in learning, practicing, and enhancing their skills in algorithmic programming. Our community event is participating in a coding competition called TeamsCode, where members can apply what they learn and practice. \n", 
+        "room" : "Thursday Weekly in P5 during lunch\n"
+    },
+    {
+        "club_name" : "Anatomy Club\n", 
+        "category" : "Community Service and Academic\n", 
+        "desc" : "The Anatomy Club is a group of students who will be exploring anatomy and physiology throughout the school year. Club meetings will consist of lectures to teach the systems to club members, these lectures will be made and taught by club executives who will use several resources such as textbooks and educational videos. We will also participate in other activities such as guest lectures, making models, and possible dissections.\n", 
+        "room" : "Weekly on Tuesdays at lunch in room 123\n"
+    },
+    {
+        "club_name" : "Animal Assisted Happiness\n", 
+        "category" : "Community Service\n", 
+        "desc" : "The Animal Assisted Happiness club is a group whose members are interested in working with the non-profit organization, Animal Assisted Happiness, to help bring smiles to kids with disabilities through the interaction with barnyard animals. Our club will raise money to use in projects to benefit the farm, help out when Animal Assisted Happniess comes to Mountain View High, travel to private visits at the farm with Mr. Q's class to assist the AAH staff, and work to recruit more students in the MVHS community to become volunteers for this incredible organization.\n", 
+        "room" : "Bi Weekly on Wednesdays at lunch in room 708\n"
+    },
+    {
+        "club_name" : "Badminton Club\n", 
+        "category" : "Recreational\n", 
+        "desc" : "The Badminton Club at Mountain View High School seeks to provide opportunities for team members and those who want to play badminton to meet and compete. For team members, this will give the opportunity to practice in the off-season and will also allow for new players interested in badminton to try out the sport. We will have mentors there to offer support and lessons for students to improve their skills. Since the club works closely with the school team, we will also fundraise to benefit the school team. As a club, we will be able to communicate with the general student body efficiently and connect students to our team community.\n", 
+        "room" : "Fridays with variable frequency in the gym (due to booking concerns)\n"
+    },
+    {
+        "club_name" : "Biology Club\n", 
+        "category" : "Academic\n", 
+        "desc" : "The Biology Club is dedicated towards informing students about science related opportunities in the Bay Area, developing essential lab skills, and educating students about biology related careers and the many disciplines that the subject branches into. We will do this by participating in labs, bringing in guest speakers, and presenting informational slides during meetings.\n", 
+        "room" : "Bi Weekly on Fridays at lunch in room 121\n"
+    },
+    {
+        "club_name" : "Black Student Union\n", 
+        "category" : "Awareness and Cultural\n", 
+        "desc" : "We created the Black Student Union Club as a means for black students to be more acknowledged, as well as a venue for everyone else to learn about the black community and our history, whether they are black or not. We intend on visiting the African American Museum in Oakland, for example, to have a deeper understanding of African American culture, history, and other topics. Not only that, but we'll be giving back to the black community in a variety of ways, including donating to the Black Lives Matter Movement and supporting local black businesses, among other things.\n", 
+        "room" : "Weekly on Tuesdays at lunch in room 720\n"
+    },
+    {
+        "club_name" : "Book Club\n", 
+        "category" : "Academic and Recreational\n", 
+        "desc" : "The Book Club is a group whose members enjoy reading, are interested in sharing and analyzing books, and wish to extend their passion for books to other people. Additionally, we will participate in book-related community service activities, such as book drives.\n", 
+        "room" : "Weekly on Tuesdays at lunch in room 113\n"
+    },
+    {
+        "club_name" : "Bring Change to Mind Club\n", 
+        "category" : "Awareness\n", 
+        "desc" : "Bring Change to Mind's High School Program gives teens a platform to share their voices and raise awareness around mental health. Our goal is to empower students to educate one another, and their comminities, and to create a culture of peer support within their schools. Togerther, we'll fight the stigma around mental illness. All club members get free access to Headspace to practice mindfulness!\n", 
+        "room" : "Weekly on Mondays at lunch in room 703\n"
+    },
+    {
+        "club_name" : "Business Club (BEAM - Business, Entrepreneurship, and Math)\n", 
+        "category" : "Academic\n", 
+        "desc" : "BEAM is dedicated to promoting business among the MVHS student body by providing interactive talks from guest speakers and internships with local companies. Our goal is for our members to gain useful business experience to prepare them for the working world. Our community event would be an elevator pitch contest judged by guest speakers for all MVHS students to participate in. \n", 
+        "room" : "Weekly on Tuesdays at lunch in room 720\n"
+    },
+    {
+        "club_name" : "ChangeZ\n", 
+        "category" : "Awareness\n", 
+        "desc" : "The ChangeZ Club recognizes the importance of student and youth voice when it comes to social activism. Our mission is to provide a platform for discussion amongst a wide variety of students who can start or continue a discourse around different social issues. Addtionally, our club strives to foster a culture of activism in the school community. \n", 
+        "room" : "Weekly on Thursdays at lunch in 731\n"
+    },
+    {
+        "club_name" : "Chemistry Club\n", 
+        "category" : "Academic\n", 
+        "desc" : "The objective of the Chemistry Club is to provide practical knowledge and experience in chemistry outside of classrooms and further preparation for students in preparation for the USNCO, AP Chemistry exam, and other chemistry related exams in and out of school as well as providing exposure to areas of current research in chemistry. This will be achieved by providing students laboratory experience and lecutures from instructors in the field. \n", 
+        "room" : "Weekly Thursday at Lunch in Room 120\n"
+    },
+    {
+        "club_name" : "Chess Club\n", 
+        "category" : "Recreational\n", 
+        "desc" : "Chess Club is a group of students who are interested in playing matches with other students recreationally each week. Players of all levels of experience are welcome, including students who are new to chess. Our members can choose to learn both the basics of chess and deeper tactics and strategies that improve the soundness and creativity of gameplay. Throughout the year, members will have the opportunity to participte in casual interschool tournaments on Lichess.org and in-person club tournaments. \n", 
+        "room" : "Weekly on Tuesdays at lunch in room 725\n"
+    },
+    {
+        "club_name" : "Chinese Cultural Club\n", 
+        "category" : "Cultural\n", 
+        "desc" : "The Chinese Cultural Club is a student orfanization striving to foster interest in or further connect with Chinese culture. Our goal is to promote the understanding of the many aspects of Chinese culture through food, games, nusic, arts and crafts, movies, and more.\n", 
+        "room" : "Weekly in Room 513 at Lunch\n"
+    },
+    {
+        "club_name" : "Clinical Care for the Underserved Club (CCU)\n", 
+        "category" : "Community Service\n", 
+        "desc" : "The Clinical Care for the Underserved Club (CCU) is dedicated towards fundraising for the RotaCare Bay Area organization, a collection of local clinics that provide free healthcare services to homeless and low income individuals. These funds will subsidize the cost of medical examinations, diagnostic testing, lab testing, and medications for homeless and low income individuals.\n", 
+        "room" : "Bi Weekly on Wednesdays at lunch in room 409\n"
+    },
+    {
+        "club_name" : "Computer Science Club\n", 
+        "category" : "Academic, Competitive, and Recreational\n", 
+        "desc" : "Our club intends to support students interested in computer science by engaging members in projects, lectures, and learning opportunities.\n", 
+        "room" : "Weekly on Fridays at lunch in room 806\n"
+    },
+    {
+        "club_name" : "Computer Tinkering Club\n", 
+        "category" : "Academic and Recreational\n", 
+        "desc" : "The Computer Tinkering Club is a group whose members are interested in working with, maintaining, and building computers. Our members will be maintaining the computers in the Engineering lab, and will be learning about how to build, maintain, clean, and repair desktop computers as well. We may seek donations for older computers or use some of the older, unused computers in the school as well. Our community event is performing an education session to teach people about how to maintain, clean, and repair their desktop computers.\n", 
+        "room" : "Weekly on Thursdays at lunch in room 802\n"
+    },
+    {
+        "club_name" : "ConnectUs Club\n", 
+        "category" : "Academic and Cultural\n", 
+        "desc" : "Our mission is to connect with Iwata Minami Ko to create a community and to safely and comfortably exchange modern culture.  We also strive to help students from other countries adapt to the English language.\n", 
+        "room" : "Weekly at lunch on Thursdays\n"
+    },
+    {
+        "club_name" : "Creative Writing Club\n", 
+        "category" : "Recreational\n", 
+        "desc" : "The Creative Writing Club is a group interested in writing, the humanities, improving and diversifying writing skills, providing assistance on papers/individual work, and working on a literary magazine. With contests and publication opportunities, as well as peer feedback, this club fosters a writing niche for students in a predominantly STEM-centered atmosphere, creating a space for casual or aspiring writers.\n", 
+        "room" : "\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Crypto Club\n", 
+        "desc" : "Academic\n", 
+        "room" : "The crypto Club is meant to introduce high school students to the new and emerging industries of blockchain and web3.0. Memebers will learn how to use and navigate this complex industry. We will mostly NOT trade real cryptocurrencies (we will use test-netwroks), as we are focused more on building rather than investing. Lessons on these topics will be taught to members, and members will work together to create innovative projects that benefit our community. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Cubing Club\n", 
+        "desc" : "Competitive and Recreational\n", 
+        "room" : "The Cubing Club is a club where people learn how to solve puzzles such as the Rubik's Cube. It is also a place for experienced cubers to improve, learn new puzzles, and compete against each other. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Drama Club\n", 
+        "desc" : "Recreational\n", 
+        "room" : "The Drama club seeks to connect MVHS students with a love of theatre by providing theatre games, events, and educational opportunities, One of our community events is the induction ceremony for the International Thespian Society (ITS), which is a celebration of MVHS theatre achievements for the year and an opportunity for students to join the esteemed International Thespian Society. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Drought Prevention Club\n", 
+        "desc" : "Community Service and Awareness\n", 
+        "room" : "The Drough Prevention Club is a group of motivated students who want to raise awareness of the effects of droughts and find creative ways to prevent droughts in California. We seek to create prototypes for potential devices that can be used to conserve water and knowledge of what can be done to prevent droughts. Our community event is presenting these devices and raising awareness of droughts to the public. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Embrace Relief Club\n", 
+        "desc" : "Awarness, recreational\n", 
+        "room" : "MVHS embrace relief is a group whose members are dedicated to providing serivice to places & people in need. This club is a highschool chapter of embrace relief, a nonprofit organization which collabortaes with volunteers to deliver humanitarian aid & disaster relief to vulnerable communities around the world. Embrace relief focuses on hunger relief, education, womens empowerment, and other golbal topics. Our community event will be passing out fliers with an issue we want to raise awarness on\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Entrepreneur Club\n", 
+        "desc" : "Academic\n", 
+        "room" : "The MVHS Entrepreneur Club is a community for aspiring entrepreneurs to start and develop their smal business or organization. We welcom entrepreneurs with all kinds of interests - selling artisan goods, making computer apps, helping the community with a nonprofit, you name it. Students can find partners, network, connect with mentors, share tips, and more! We also provide a great way for students to expand their reach through our community event, the MVHS small business fair. At this event, the MVHS community can learn about the amazing things students are building. Launch or grow your venture with the Entrepreneur Club!\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Fashion Art and Explorer Club\n", 
+        "desc" : "Cultural\n", 
+        "room" : "The Fashion and Art Explorer Club focuses on ideas to communicate in creative ways. We want to gather incredible students who have diverse skills in different areas and are interested in fashion and art. MEmbers of our club willl explore and discuss the relationshio between fashion, art and the world around us from ancient to present, discovering the echo between former createors and us. Students will get precious experience and show our school spirits during the fasion show and exhibition which will newly present stduents ideas. Our purpose is to provide a platform for creatieve and unique students to express ideas and get effetive feedback for improvement.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Folklorico Club\n", 
+        "desc" : "Cultural\n", 
+        "room" : "MVHS is a group of students and educators interested in exploring our own culture through dance, and educating others on a significant part of our culture. Our goal is to enhance cultural experiences on campus by learning and teaching various cultural dances. We will seek donations and funding in order to obtain a range of costume, shoes and outfit accessories to be used during dance performances. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Foreign Linguistics Club\n", 
+        "desc" : "Academic, Cultural\n", 
+        "room" : "The foreign Linguistics club is a group whose members are intersted in the study of foreign languages and the Linguisitc makeup of those langauges. Our club hopes to foster an enviorment with support for a variety of different languages, namely those taught at MVHS (chinese, spanish, french, japanese). Naturally, no single person in the club will be able to support every language, but through your participation we will be able to practice and learn new langauges together! Events in the future may include: club sponsered cafe meetups, practice speaking, guest speakers, and other social gatherings\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "French Club\n", 
+        "desc" : "Cultural\n", 
+        "room" : "The French Club is an organization whose members are devoted to studying and celebrating the French language and culture through group activities. Students of any skill level are able to join the French Club. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "French Honors Society\n", 
+        "desc" : "Cultural and Academic\n", 
+        "room" : "The French Honors Society, or La Societe Honoraire de Francais, is a group whose members are devoted to studying the French Language and Culture. Members, all of whom participate in French 3H or above, are strong students who are interested in learning more about the culture and develiping speaking skills through group activities. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Game Development Club\n", 
+        "desc" : "Recreational\n", 
+        "room" : "The Game Development Club is a group whose members are interested in games and how they are developed. Our members enjoy programming and designing games. Our community event is a Game Jam & Game Showcase, where club members cooperate to create games in a short amount of time, and we interact with the MVHS community in fun and memorable ways. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Girls Who Code\n", 
+        "desc" : "Academic and Community Service\n", 
+        "room" : "The Girls Who Code club works to foster an environment in which women in technology at MVHS feel welcome and comfortable to develop their coding skills and to teach members of the community more about computer science through lessons in coding, professional visits and field trips, and attending fun events like hackathons. We work towards small-scale individual projects and group projects where club members develop their own websites and teach code at local middle schools.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Go Club\n", 
+        "desc" : "Cultural and Recreational\n", 
+        "room" : "MVHS Go Club is a caring community where we love to learn and play Go. We want to spread the joy of Go since it is mostly played in Asia. In the future we would love to host go tournaments to attract more go players and spread awareness of go.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Greenteam MVHS\n", 
+        "desc" : "Awareness and Community Service\n", 
+        "room" : "The Mountain View Green Team's goal on campus is to spread awareness around the environment. Through the projects we complete, we are aiming to push our school collectively and individuals personally to better the choices they make and thoroughly understand the consequences that they can have.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "GSA (Gender and Sexuality Alliance)\n", 
+        "desc" : "Awareness\n", 
+        "room" : "The GSA (Gender and Sexuality Alliance) Club is a group of students who are either members or allies of the LGBTQ+ community. Our  club serves as a safe space for queer youth, where they can be accepted for who they are and meet others like them. GSA also organizes LGBTQ+ activism and awareness events, to spread knowledge about the queer community to the wider population. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Happy Day Microfunds\n", 
+        "desc" : "Community Service and Awareness\n", 
+        "room" : "Happy Day Micro Fund is a community-involved club with the intent of fundraising money through club-organized events to provide support to striving entrepreneurs through loans, mentorships, and more. This club calls for motivated high school students who are willing to help give back to the less privileged members in our community, with a focus on minorities.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Helping P.A.W.S.\n", 
+        "desc" : "Awareness and Community Service\n", 
+        "room" : "Helping P.A.W.S is a group of dedicated students, whose members are interested in learning about the animals in our community and making a difference. Our goal is to research, discover, and execute new ways for students to raise awareness and make a positive difference in the lives of animals in our community. Our members will create new methods for the community to better care for all the animals in our area, both wild and domestic. Our community event will focus on spreading awareness about different important animal-related issues and providing methods for the community to help combat these problems.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "History Club\n", 
+        "desc" : "Academic\n", 
+        "room" : "The histroy club seeks to gather people with an interest in all fieslds of history for discussion and any knowledge histroical topics and current events chosen by either the officers or members. It will also hold study/reviews sessions in preperation for AP exams or large tests in hsiotry classes\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Homeless Action Club\n", 
+        "desc" : "Community Service and Awareness\n", 
+        "room" : "The purpose of the Homeless Action Club (HAC) is to provide food, toiletries, shelter, provisions for the homeless, particularly given the increasing number of homeless given the pandemic.  We will work with our community to solicit volunteers to participate in activities/projects such as collecting non-perishable, non-expired food, toiletries, etc.  We would work with institutions such as Hope\u2019s Corner in Mountain View, CA to deliver and/or serve breakfast, provide supplies for showers, support them in providing temporary shelter to the homeless.  We would increase awareness of the homelessness situation in our neighborhoods, cities, California, and our country, and brainstorm ways we as students can help.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Ignition Club\n", 
+        "desc" : "Academic\n", 
+        "room" : "The Ignition Club is an accomplished club that competes, learns, and teaches at various events. Competitions include capture the flag (cybersecurity competition) and hackathons (24 hr product development,) where the club competes (often successfully) among other high schoolers as well as adults. Learning includes preparation for competitions, which includes research, coding, and UI design. Finally, we teach multiple sessions per month at CoderDojo, a worldwide nonprofit, racking up 100+ community service hours and leading the effort for curriculum reform for hundreds of students.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "INARA Club\n", 
+        "desc" : "Community Service\n", 
+        "room" : "The INARA Club is a group of students dedicated to fundraising for INARA, an organization that provides medical aid to refugee children in the Middle East. Club members learn how to raise awareness about current humanitarian issues in the Middle East by participating in fundraisers and activities. Our community service events are operating tables at the Social Justice Fair and the Wellness Fair.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Inventors Club\n", 
+        "desc" : "Academic and Recreational\n", 
+        "room" : "The Inventors Club strives to teach and promote engineering and the basics of robotics through fun and hands-on activities such as making simple remote-controlled robots, a trash-collecting robot as a part of community service by the end of the year, and teaching the basics of programming and computer science.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Japan Club\n", 
+        "desc" : "Cultural\n", 
+        "room" : "Japan Club is a group whose members are interested in a more in-depth study of Japanese culture, including music, Anime, video games, Cosplay, food, Origami, and so on. Japan Club is where students learn or share Japanese cultural activities.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Japanese National Honor Society\n", 
+        "desc" : "Academic\n", 
+        "room" : "Celebrate & appreciate language, culture, & history. Members should be interested in expanding their japanese fluency & literacy.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Jewish Student Union\n", 
+        "desc" : "Awareness\n", 
+        "room" : "The Jewish Student Union is a group whose members are interested in interacting and building a relationship and community with other Jewish students. We will do this through learning about the history and traditions of Israel, celebrating Jewish holidays, and participating in various events within the greater Bay Area Jewish community.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "K-pop Dance Club\n", 
+        "desc" : "Cultural\n", 
+        "room" : "kpop is a music genre from South Korea. This type of music is very popular in Asia, and has spread all over the world, including in the USA. Mountain View High School is a very diverse school filled with people from all over the world, and we have hundreds of clubs here, but my question is... \"Why don't we have a Kpop club?\" There are many students at MVHS who love Kpop. This club will allow other teenagers to listen, dance, and be exposed to what other teenagers across the world are listening, dancing, and being exposed to, establishing a connection with the culture that otherwise wouldn't have been made. We hope that our club will be as entertaining, fun, inviting, and mind opening as a k-pop club can be. Our community events will mostly consist of drives, canned food and clothing for those who need them. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Kapamilya Club\n", 
+        "desc" : "Community Service, Awareness, and Cultural\n", 
+        "room" : "The Kapamilya Club is a club of people who are interested in gaining a deeper understanding and connection with Filipino culture. Our goal is to spread the culture through fun activities. We aim to also spread awareness of tragedies that happen in the Philippines. Our community event is a showcase of the many different aspects of the Filipino culture (i.e., food, games, traditions). \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Key Club\n", 
+        "desc" : "Community Service\n", 
+        "room" : "Mountain View Key Club is a club under Key Club International, the oldest and largest student-led organization which provides its members with opportunities to provide service, build character, and develop leadership. Our members perform a variety of service projects such as tree planting, making toys for shelter dogs, and organizing the MVHS Performing Arts Benefit Concert.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Korean Culture Club\n", 
+        "desc" : "Cultural\n", 
+        "room" : "The Korean Culture Club is place where students can express and explore their interest in Korean culture/language and Korean history. Our members will seek to understand in depth of the culture and spread awareness and posituvuty of the culture with the MVHS community through participating in campus on campus community events and club meetings. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Latino Student Union\n", 
+        "desc" : "Cultural\n", 
+        "room" : "The Latino student union is a club whose purpose is to unify, inspire, educate, and advocate for latino culture. Our members promote Latino culture by participating in social, fundraiaing, and Cultural events within and outside of the MVHS Community. At the beginning of spanish heritage month, LSU will host a potluck to kick off the month-long celebrations.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Latinx Tech Club\n", 
+        "desc" : "Academic\n", 
+        "room" : "The Latinx Tech Club is a group whose members are interested in learning introductory concepts related to programming and engineering. The club works to expose students of tradiontally underreprersented communities (i.e. Latinx) to the STEM field. This club serves as a pipline towards other existing program/courses that require experience and that have higher bar to entry. Our community event is helping run Week of Code at Mountain View High School.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Leo Club\n", 
+        "desc" : "Community Service\n", 
+        "room" : "The Leo Club is a philanthropy/community service club where students who enjoy volunteering can give back to their community. Students part of the Leo Club will have the opportunity to plan and participate in fun, diverse, and inclusive community service projects. We are also part of a parent organization, called the Lions Club, which is a non-profit organization dedicated to giving back through community service.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "M1820\n", 
+        "desc" : "Awareness and Community Service\n", 
+        "room" : "M1820 exists to encourage Christians to boldly live out their faith on school grounds. It is our mission to disciple believers and equip them with wisdom and the Holy Spirit to make known the truth of Jesus Christ in the world starting with Mountain View High School. We seek to spread the Gospel, participate in community service projects, and engage in Biblical discussions in order to build our faith and share the hope that we have. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "March For Our Lives\n", 
+        "desc" : "Awareness\n", 
+        "room" : "The March For Our Lives club is a club for students who are interested in activism and using their voice as students to fight for change to stop gun violence, in order to make MVHS and other schools around the nation a safer place. As a club, we will research and study episodes and trends of gun violence, lobby for legislation and policy change, and organise fundraisers.The goal of our club is to spread awareness and take action to this effect as students, by getting people to vote, pushing for legislative reform, spreading and promoting facts-based research, and raising money for communities in need.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Marine Biology and Ocean Conservation Club\n", 
+        "desc" : "Awareness, Academic, and Community Service\n", 
+        "room" : "The Marine Biology and Ocean Conservation Club is a dedicated group of individuals who are pasisonate in the field of Marine Biology and Ocean Conservation and wnat to help others pursue/explore their interest in this field . Our goal is to create an environment where anyone can be involved with ocean conservation and philanthropy through community service, volunteer projects, and awareness. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Math Club\n", 
+        "desc" : "Academic, Competitive, and Community Service\n", 
+        "room" : "The Math Club focuses on competitive and proof-based math outside of the school framework. We prepare students to succeed at math competitions. We also teach the math team at Blach Middle School.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Math Mission Club\n", 
+        "desc" : "community service\n", 
+        "room" : "The math mission club is a club dedicated ti helping sutdents struggling in math, or students un underserved communities have access to sudficient math tutoring and help. Out members will have to pass a test to ensure that thye have an advanced undertsanding of alhgebra 1 material, and then they will be assigned to students in need of help for one hour of tutoring sessions every few weeks. Out community/service evebnt is to provide atleast 10 hours per member of free tutoring per semsester\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Mathematical Modeling Club\n", 
+        "desc" : "Competitive\n", 
+        "room" : "The mission of Mountain View High School's Math Modeling program is to educate students about math modeling and its applications to real world situations, as well as to provide them with the opportunity to compete in prestigious national math modeling competitions, where they can win prize money in scholarships. \n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Me Too MVHS\n", 
+        "desc" : "Awareness\n", 
+        "room" : "We advocate for sexual assault awaraness and improvement of sex education. Our goal is to create a safe space for those affected by sexual violence and be a group of allies.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Mock Trial Club\n", 
+        "desc" : "Academic and Competitive\n", 
+        "room" : "The Mock Trial Club aims to deliver an early exposure to the process of law and litigation through discussion of the law and its procedures as well as a year-long simulation of a trial that students participate in. They will compete against other schools and will be graded on performance and understanding of due process. Taught by attorney lawyers from Santa Clara\u2019s Public Defender\u2019s Office, students will have first-hand insight into how the system works and how to navigate its intense network of procedure.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "Music Outreach Club\n", 
+        "desc" : "Academic, Community Service\n", 
+        "room" : "The MVHS Music Outreach Club is a community that provides performance and community service opportunities to student musicians who have shown themselves to be capable, creative, and passionate. All instruments are welcome and will have the chance to perform in groups or individually at the MVHS Chamber Concert in the fall and spring, and time permitting, at senior homes, public spaces, and other venues as they wish. Students are able to share their love of music with each other, the school, and community through both socialization and volunteering.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "MVHS Bridge Club\n", 
+        "desc" : "Competitive\n", 
+        "room" : "The MVHS Bridge Club allows students who are interested in learning and playing bridge to come together and play matches/tournaments. Players of all levels are welcome, including students who are new to the game, and students with higher skill levels. Our members are able to decide whether to learn the basics or deeper tactics of bridge. Towards the end of the year, we will encourage all members to attend the Bay Area championship tournament, where schools from around the Bay Area come and compete for top awards. Throughout the school year, students will constantly play in tournament settings and practice to improve their skills. Community events include middle school teaching and playing bridge with seniors at a continuing care facility.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "MVHS Chapter of Junior State of America\n", 
+        "desc" : "Acadmic\n", 
+        "room" : "The mission of the Junior State of America Foundation (JSA) is to strengthen American democracy by educting and preparing high school students for lifelong involvement and responsibe leadership in a democratic society. JSA works to civically and politically engage students through debate, leadership development, and activism. Our community event will be a voter pre-registration drive and a thought talk, which is an open debate that operates under JSA activities guidelines.\n"
+    },
+    {
+        "club_name" : "\n", 
+        "category" : "MVHS Drama Llamas\n", 
+        "desc" : "Recreational\n", 
+        "room" : "Drama Llamas is a group with the intent of making all aspects of theatre available to everyone. We are committed to creating student-run theater and learning leadership skills. Whenever possible, we will perform student-written shows, and put on one full-scale musical at the end of the year, which will serve as our community event.     \n"
+    },
+    {
+        "club_name" : "Monday through Thursday Weekly starting after the Spartan Theatre Company spring musical\n", 
+        "category" : "\n", 
+        "desc" : "MVHS Dungeons and Dragons Club\n", 
+        "room" : "Recreational\n"
+    },
+    {
+        "club_name" : "Bi-weekly, Thursdays at Lunch in room 722\n", 
+        "category" : "\n", 
+        "desc" : "MVHS Medical Exploration Club\n", 
+        "room" : "Community Service, Awareness, and Academic\n"
+    }
+]
+}
