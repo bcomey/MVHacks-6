@@ -8,6 +8,13 @@
 		<MapBox x="13.13%" y="28.86%" width="195px" height="220px" text="park" fontSize="20px" color="blue" on="false"></MapBox>
 	</div>
 	<div id="RightSeparator"></div>
+	<div id="ViewSelector">
+		<div id="ViewLabel">Select View</div>
+		<button id="ClubsView" @click="selectClubs" class="">Clubs</button>
+		<button id="LunchView" @click="selectLunch" class="notSelected">Lunch</button>
+		<button id="TeachersView" @click="selectTeachers" class="notSelected">Teachers</button>
+		<button id="EventsView" @click="selectEvents" class="notSelected">Events</button>
+	</div>
 	
   </template>
 <script>
@@ -25,9 +32,50 @@
 		  goToMap(){
             window.location.href = "/map";
 			},
+		selectClubs(){
+			document.getElementById("ClubsView").style.backgroundColor="#c2ffd3";
+			document.getElementById("LunchView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("TeachersView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("EventsView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("ClubsView").classList.remove("notSelected");
+			document.getElementById("LunchView").classList.add("notSelected");
+			document.getElementById("TeachersView").classList.add("notSelected");
+			document.getElementById("EventsView").classList.add("notSelected");
+		},
+		selectLunch(){
+			document.getElementById("ClubsView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("LunchView").style.backgroundColor="#c2ffd3";
+			document.getElementById("TeachersView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("EventsView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("ClubsView").classList.add("notSelected");
+			document.getElementById("LunchView").classList.remove("notSelected");
+			document.getElementById("TeachersView").classList.add("notSelected");
+			document.getElementById("EventsView").classList.add("notSelected");
+		},
+		selectTeachers(){
+			document.getElementById("ClubsView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("LunchView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("TeachersView").style.backgroundColor="#c2ffd3";
+			document.getElementById("EventsView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("ClubsView").classList.add("notSelected");
+			document.getElementById("LunchView").classList.add("notSelected");
+			document.getElementById("TeachersView").classList.remove("notSelected");
+			document.getElementById("EventsView").classList.add("notSelected");
+		},
+		selectEvents(){
+			document.getElementById("ClubsView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("LunchView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("TeachersView").style.backgroundColor="rgba(100,100,100,0.05)";
+			document.getElementById("EventsView").style.backgroundColor="#c2ffd3";
+			document.getElementById("ClubsView").classList.add("notSelected");
+			document.getElementById("LunchView").classList.add("notSelected");
+			document.getElementById("TeachersView").classList.add("notSelected");
+			document.getElementById("EventsView").classList.remove("notSelected");
+		},
+		
       },
       mounted(){
-      
+		
       },
   }
 </script>
@@ -151,6 +199,102 @@
 	top:0%;
 	left:30%;
 	width:952px;
+  }
+  #ViewSelector{
+	border:2px solid rgba(0,0,0,0.1);
+	position:absolute;
+	left:2%;
+	top:65%;
+	width:10%;
+	height:30%;
+	border-radius:5px;
+  }
+  #ClubsView{
+	width:100%;
+	border-bottom:2px solid rgba(0,0,0,0.1);
+	height:25%;
+	position:absolute;
+	left:0%;
+	top:0%;
+	background-color:#c2ffd3;
+	color:black;
+	
+	font-family: 'Open Sans', sans-serif;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	font-size:25px;
+	font-weight:500;
+	cursor:pointer;
+	transition:0.1s all;
+  }
+  
+  #LunchView{
+	width:100%;
+	border-bottom:2px solid rgba(0,0,0,0.1);
+	height:25%;
+	position:absolute;
+	left:0%;
+	top:25%;
+	background-color:rgba(100,100,100,0.05);
+	font-family: 'Open Sans', sans-serif;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	font-size:25px;
+	font-weight:500;
+	cursor:pointer;
+	transition:0.1s all;
+  }
+  
+  #TeachersView{
+	width:100%;
+	border-bottom:2px solid rgba(0,0,0,0.1);
+	height:25%;
+	position:absolute;
+	left:0%;
+	top:50%;
+	background-color:rgba(100,100,100,0.05);
+	font-family: 'Open Sans', sans-serif;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	font-size:25px;
+	font-weight:500;
+	cursor:pointer;
+	transition:0.1s all;
+  }
+   
+  .notSelected:hover{
+	filter:brightness(70%);
+  }
+  #EventsView{
+	width:100%;
+	border-bottom:none;
+	height:25%;
+	position:absolute;
+	left:0%;
+	top:75%;
+	background-color:rgba(100,100,100,0.05);
+	font-family: 'Open Sans', sans-serif;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	font-size:25px;
+	font-weight:500;
+	cursor:pointer;
+	transition:0.1s all;
+  }
+   
+  #ViewLabel{
+	position:absolute;
+	width:100%;
+	text-align:center;
+	top:-15%;
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	font-weight:500;
+	opacity:0;
   }
 </style>
   
