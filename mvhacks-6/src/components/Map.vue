@@ -11,6 +11,10 @@
 	<div id="RightSeparator"></div>
     <div id="infoToday"></div>
 	<div id="infoOther"></div>
+    <div id="event">Event</div>
+    <div id="food">Food</div>
+    <div id="club">Clubs</div>
+
 
 	<input v-on:keyup.enter="onEnter" />
 
@@ -1990,8 +1994,27 @@
     left:77%;
     top:70%;
     font-family: 'Open Sans', sans-serif;
-
   }
+
+  /*Key*/
+#event {
+    position:absolute;
+    color:rgb(200,200,0);
+    top:90%;
+    left:10%;
+}
+#club {
+    position:absolute;
+    color:green;
+    top:92%;
+    left:10%;
+}
+#food {
+    position:absolute;
+    color:blue;
+    top:94%;
+    left:10%;
+}
 
 
 </style>
