@@ -9,17 +9,6 @@
 		<MapBox v-for="mapbox in this.mapboxes" :x="mapbox.x" :y="mapbox.y" :width="mapbox.width" :height="mapbox.height" :text="mapbox.name" fontSize="8px" :color="mapbox.color" :on="mapbox.on" @click="displayInfo(mapbox.name)"></MapBox>
 	</div>
 	<div id="RightSeparator"></div>
-<<<<<<< Updated upstream
-    <div id="infoToday"></div>
-	<div id="infoOther"></div>
-    <div id="event">Event</div>
-    <div id="food">Food</div>
-    <div id="club">Clubs</div>
-
-
-	<input v-on:keyup.enter="onEnter" />
-
-=======
     <div id="primaryClubName">{{primaryClubName}}</div>
 	<div id="primaryClubDesc">{{primaryClubDesc}}</div>
 	<div id="primaryClubRoom">{{primaryClubRoom}}</div>
@@ -33,7 +22,6 @@
 	<div id="secondaryClubs"></div>
 	<div id="TeacherSearch"></div>
 	<VInput x="3%" y="20%" width="250px" height="50px" label="Find a Teacher's Room" fontSize="20px"></VInput>
->>>>>>> Stashed changes
 
 	
   </template>
@@ -2140,29 +2128,6 @@
 			this.view="events";
 		},
 		displayInfo(room_name){
-<<<<<<< Updated upstream
-            document.getElementById("infoToday").innerHTML = "Today's Clubs:<br>";
-            document.getElementById("infoOther").innerHTML = "Other Clubs:<br>";
-             const d = new Date();
-             const days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
-             let dayNum = d.getDay(); 
-             var day = days[dayNum]
-
-             day = "friday"; // set to friday for debug purposes
-            //clubs
-			for (var i=0; i<this.clubs.length; i++) {
-                // all clubs in room       
-                if (this.clubs[i]["room_number"] == room_name) {
-                    if ((this.clubs[i]["room"].toLowerCase()).includes(day)) { //if club is meeting TODAY
-                        document.getElementById("infoToday").innerHTML += this.clubs[i]["club_name"] + ": " +this.clubs[i]["room"]  + "<br><br>" + this.clubs[i]["desc"] + "<br><br>";
-                    }
-                    else { //all
-                        document.getElementById("infoOther").innerHTML += this.clubs[i]["club_name"] + ": " +this.clubs[i]["room"]  + "<br><br>";
-                    }
-                }
-            }
- 
-=======
             document.getElementById("secondaryClubs").innerHTML="";
 			this.primaryClubName="";
 						this.primaryClubDesc="";
@@ -2214,7 +2179,7 @@
 			var foundTeacher="";
 			if(localStorage.getItem("Find a Teacher's Room").length>0){
 				for(var i=0;i<this.teachers.length;i++){
-					if(this.teachers[i].teacher==localStorage.getItem("Find a Teacher's Room")){
+					if(document.getElementById("TeacherSearch")!=null && this.teachers[i].teacher==localStorage.getItem("Find a Teacher's Room")){
 						foundTeacher="yes";
 						document.getElementById("TeacherSearch").innerHTML="Room "+this.teachers[i].room.substring(this.teachers[i].room.length-3,this.teachers[i].room.length);
 						break;
@@ -2224,7 +2189,6 @@
 			if(foundTeacher!="yes"){
 				document.getElementById("TeacherSearch").innerHTML="";
 			}
->>>>>>> Stashed changes
 		}
 		
       },
@@ -2512,33 +2476,6 @@
     font-family: 'Open Sans', sans-serif;
 
   }
-<<<<<<< Updated upstream
-    #infoOther{
-    position:absolute;
-    left:77%;
-    top:70%;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-  /*Key*/
-#event {
-    position:absolute;
-    color:rgb(200,200,0);
-    top:90%;
-    left:10%;
-}
-#club {
-    position:absolute;
-    color:green;
-    top:92%;
-    left:10%;
-}
-#food {
-    position:absolute;
-    color:blue;
-    top:94%;
-    left:10%;
-=======
   #primaryClubName{
 	width:25%;
 	text-align:center;
@@ -2668,7 +2605,6 @@
 	text-align:center;
 	top:28%;
 	font-family: 'Open Sans', sans-serif;
->>>>>>> Stashed changes
 }
 
 
