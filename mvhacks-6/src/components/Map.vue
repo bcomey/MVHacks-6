@@ -2137,26 +2137,7 @@
 			this.view="events";
 		},
 		displayInfo(room_name){
-            document.getElementById("infoToday").innerHTML = "Today's Clubs:<br>";
-            document.getElementById("infoOther").innerHTML = "Other Clubs:<br>";
-             const d = new Date();
-             const days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
-             let dayNum = d.getDay(); 
-             var day = days[dayNum]
 
-             day = "friday"; // set to friday for debug purposes
-            //clubs
-			for (var i=0; i<this.clubs.length; i++) {
-                // all clubs in room       
-                if (this.clubs[i]["room_number"] == room_name) {
-                    if ((this.clubs[i]["room"].toLowerCase()).includes(day)) { //if club is meeting TODAY
-                        document.getElementById("infoToday").innerHTML += this.clubs[i]["club_name"] + ": " +this.clubs[i]["room"]  + "<br><br>" + this.clubs[i]["desc"] + "<br><br>";
-                    }
-                    else { //all
-                        document.getElementById("infoOther").innerHTML += this.clubs[i]["club_name"] + ": " +this.clubs[i]["room"]  + "<br><br>";
-                    }
-                }
-            }
  
             document.getElementById("secondaryClubs").innerHTML="";
 			this.primaryClubName="";
