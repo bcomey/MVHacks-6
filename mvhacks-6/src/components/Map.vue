@@ -2243,6 +2243,7 @@
 		
       },
 	  mounted(){
+		document.title="MVHS Logistic Map";
 		this.$nextTick(function () {
             window.setInterval(() => {
                 this.update();
