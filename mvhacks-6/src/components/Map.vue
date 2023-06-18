@@ -2136,9 +2136,17 @@
 			document.getElementById("EventsView").classList.remove("notSelected");
 			this.view="events";
 		},
-		displayInfo(room_name){
+		displayInfo(room_name){ 
+            /*for (var i=0; i<this.mapboxes.length; i++) {
+                if (this.mapboxes[i].color != "yellow") {
+                    alert(i)
+                }
+            }*/
+            this.mapboxes[7].color = "#0000ff"
+            this.mapboxes[7].on = "true";
+            alert(this.mapboxes[7].color);
 
- 
+
             document.getElementById("secondaryClubs").innerHTML="";
 			this.primaryClubName="";
 						this.primaryClubDesc="";
