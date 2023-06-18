@@ -5,6 +5,8 @@
     <div id="HeaderSeparator"></div>
     <h1>About Us</h1>
     <p>snitches telling all their bidness<br>sittin in court bein their own star witness</p>
+    <img id="biden" src="../assets/biden.jpg" alt="Are you riden with biden?">
+    <div id="yes">web development is my passion</div>
   </template>
   <script>
   import VButton from "./VButton.vue";
@@ -124,6 +126,13 @@
       left:0%;
       top:12%;
       height:2px;
+  }
+
+  #yes {
+    font-size:200px;
+    position:absolute;
+    top:50%;
+    color: rgb(0,255,255);
   }
   </style>
   
