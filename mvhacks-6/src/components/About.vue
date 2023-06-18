@@ -3,14 +3,10 @@
     <VButton x="80%" y="3%" width="120px" height="60px" text="About" fontSize="25px" styl="secondary" borderRadius="10px" @click = "goToAbout"></VButton>
     <VButton x="90%" y="3%" width="120px" height="60px" text="Map" fontSize="25px" styl="normal" borderRadius="10px" @click = "goToMap"></VButton>
     <div id="HeaderSeparator"></div>
-<<<<<<< Updated upstream
     <h1>About Us</h1>
     <p>snitches telling all their bidness<br>sittin in court bein their own star witness</p>
     <img id="biden" src="../assets/biden.jpg" alt="Are you riden with biden?">
     <div id="yes">web development is my passion</div>
-=======
-   
->>>>>>> Stashed changes
   </template>
   <script>
   import VButton from "./VButton.vue";
