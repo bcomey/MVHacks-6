@@ -9,6 +9,7 @@
 		<MapBox v-for="mapbox in this.mapboxes" :x="mapbox.x" :y="mapbox.y" :width="mapbox.width" :height="mapbox.height" :text="mapbox.name" fontSize="8px" :color="mapbox.color" :on="mapbox.on" @click="displayInfo(mapbox.name)"></MapBox>
 	</div>
 	<div id="RightSeparator"></div>
+<<<<<<< Updated upstream
     <div id="infoToday"></div>
 	<div id="infoOther"></div>
     <div id="event">Event</div>
@@ -18,6 +19,21 @@
 
 	<input v-on:keyup.enter="onEnter" />
 
+=======
+    <div id="primaryClubName">{{primaryClubName}}</div>
+	<div id="primaryClubDesc">{{primaryClubDesc}}</div>
+	<div id="primaryClubRoom">{{primaryClubRoom}}</div>
+	<div id="primaryLunchName">{{primaryLunchName}}</div>
+	<div id="primaryLunchDesc">{{primaryLunchDesc}}</div>
+	<div id="primaryLunchRoom">{{primaryLunchRoom}}</div>
+	<div id="primaryEventName">{{primaryEventName}}</div>
+	<div id="primaryEventDesc">{{primaryEventDesc}}</div>
+	<div id="primaryEventRoom">{{primaryEventRoom}}</div>
+	<div id="secondaryLabel" v-if="this.primaryClubName!=''">Other Clubs Meeting in this Room:</div>
+	<div id="secondaryClubs"></div>
+	<div id="TeacherSearch"></div>
+	<VInput x="3%" y="20%" width="250px" height="50px" label="Find a Teacher's Room" fontSize="20px"></VInput>
+>>>>>>> Stashed changes
 
 	
   </template>
@@ -28,7 +44,20 @@
   export default {
       data(){
 		return{
+			primaryClubName:"",
+			primaryClubDesc:"",
+			
+			primaryClubRoom:"",
+			primaryLunchName:"",
+			primaryLunchDesc:"",
+			
+			primaryLunchRoom:"",
+			primaryEventName:"",
+			primaryEventDesc:"",
+			
+			primaryEventRoom:"",
 			view:"clubs",
+			roomHeight:"",
 			events:[
 			{
 				"event_name" : "Spartan Pause",
@@ -38,14 +67,428 @@
 			lunch:[
 			{
 				"lunch_name" : "Cafeteria",
-				"food": "food, food, more food",
+				"food": "This is the largest dining place, it serves all sorts of hot and cold food including burgers, chicken sandwiches, nachos, pasta, sandwiches, salads, and much more. Lines are fairly long though, so make sure to get there early!",
 				"room_number" : "Cafeteria",
 			},
 			{
 				"lunch_name" : "Pizza Cart",
-				"food" : "Cheese pizza, pepperoni pizza",
+				"food" : "This little cart serves cheese and pepperoni pizza! Lines are usually not too long and move quickly.",
 				"room_number" : "Theater"
 			}],
+			teachers:[
+
+{    "teacher" : "Advisor Name (First + Last)", 
+    "room" : "Club Meeting Time (ie. Wednesdays, biweekly @ lunch)"
+},
+{
+    "teacher" : "Abby Stucker", 
+    "room" : "Monthly on Fridays at lunch in room 604"
+},
+{
+    "teacher" : "Marcey Winawer", 
+    "room" : "Thursday Weekly in P5 during lunch"
+},
+{
+    "teacher" : "Ann Nguyen", 
+    "room" : "Weekly on Tuesdays at lunch in room 123"
+},
+{
+    "teacher" : "Seamus Quillinan", 
+    "room" : "Bi Weekly on Wednesdays at lunch in room 708"
+},
+{
+    "teacher" : "Edda Lieja", 
+    "room" : "Fridays with variable frequency in the gym (due to booking concerns)"
+},
+{
+    "teacher" : "David Cmaylo", 
+    "room" : "Bi Weekly on Fridays at lunch in room 121"
+},
+{
+    "teacher" : "David Ortiz", 
+    "room" : "Weekly on Tuesdays at lunch in room 720"
+},
+{
+    "teacher" : "Arielle Martinka", 
+    "room" : "Weekly on Tuesdays at lunch in room 113"
+},
+{
+    "teacher" : "Tami Kittle", 
+    "room" : "Weekly on Mondays at lunch in room 703"
+},
+{
+    "teacher" : "David Ortiz", 
+    "room" : "Weekly on Tuesdays at lunch in room 720"
+},
+{
+    "teacher" : "Brooke Mangin", 
+    "room" : "Weekly on Thursdays at lunch in 731"
+},
+{
+    "teacher" : "Christine Yow", 
+    "room" : "Weekly Thursday at Lunch in Room 120"
+},
+{
+    "teacher" : "Nate Bowen", 
+    "room" : "Weekly on Tuesdays at lunch in room 725"
+},
+{
+    "teacher" : "Annie Liu", 
+    "room" : "Weekly in Room 513 at Lunch"
+},
+{
+    "teacher" : "Annie Liu", 
+    "room" : "Bi Weekly on Wednesdays at lunch in room 409"
+},
+{
+    "teacher" : "Ly Nguyen", 
+    "room" : "Weekly on Fridays at lunch in room 806"
+},
+{
+    "teacher" : "Bill Dunbar", 
+    "room" : "Weekly on Thursdays at lunch in room 802"
+},
+{
+    "teacher" : "Jeff Morgan", 
+    "room" : "Weekly at lunch on Thursdays"
+},
+{
+    "teacher" : "Julie Song", 
+    "room" : "Weekly on Thursdays at lunch in room 102"
+},
+{
+    "teacher" : "Marcey Winawer", 
+    "room" : "Monday's weekly @lunch in P5 "
+},
+{
+    "teacher" : "Ariele Wildwind", 
+    "room" : "Weekly on Tuesdays and Thursdays at lunch in room 419"
+},
+{
+    "teacher" : "Pancho Morris", 
+    "room" : "Weekly Thursdays at lunch in room 413"
+},
+{
+    "teacher" : "Jennifer Chiu", 
+    "room" : "Bi Weekly on Wednesdays at lunch in room 513"
+},
+{
+    "teacher" : "Brook Mangin", 
+    "room" : "Monthly on Thrusdays at lunch in room 731"
+},
+{
+    "teacher" : "Rafael Alapont", 
+    "room" : "Bi-Weekly on Fridays at lunch in Room 411"
+},
+{
+    "teacher" : "Meghan Engle", 
+    "room" : "Bi-Weekly on Wednesdays and Lunch in Room 110"
+},
+{
+    "teacher" : "Latina Wharton", 
+    "room" : "Thursday 2x a month at lunch"
+},
+{
+    "teacher" : "Nora Engle-hall", 
+    "room" : "Weekly on wednesday @lunch"
+},
+{
+    "teacher" : "Clotilde Gres", 
+    "room" : "Weekly Thursdays at lunch in room 603"
+},
+{
+    "teacher" : "Clotilde Gres", 
+    "room" : "Weekly Friday at lunch in room 603"
+},
+{
+    "teacher" : "Brendan Dilloughry", 
+    "room" : "Weekly on Thursdays at lunch in room 801"
+},
+{
+    "teacher" : "Ly Nguyen", 
+    "room" : "Bi Weekly on Thursdays in room 806"
+},
+{
+    "teacher" : "Wei Lu", 
+    "room" : "Weekly on Fridays at lunch in room 602"
+},
+{
+    "teacher" : "Allison Pfeifer", 
+    "room" : "Weekly on Tuesdays at lunch in room 117"
+},
+{
+    "teacher" : "Felitia Hancock", 
+    "room" : "Weekly on Fridays at Lunch in Room 726"
+},
+{
+    "teacher" : "Kristen Drolshagen", 
+    "room" : "Weekly on Fridays at luncj in room 314"
+},
+{
+    "teacher" : "Carla Gomez", 
+    "room" : "Weekly on Tuesdays at lunch in room 212"
+},
+{
+    "teacher" : "Brook Margin-Hinkley", 
+    "room" : "3x/Month on thursdays @lunch in room 731"
+},
+{
+    "teacher" : "Lee Casem", 
+    "room" : "Bi Weekly on Fridays at lunch in room 705"
+},
+{
+    "teacher" : "Ann Nguyen", 
+    "room" : "Weekly on Fridays at lunch in room 123"
+},
+{
+    "teacher" : "Julie Yick", 
+    "room" : "Bi Weekly on Fridays at lunch in room 729"
+},
+{
+    "teacher" : "Nate Bowen", 
+    "room" : "Bi Weekly Wednesdays at lunch in room 803"
+},
+{
+    "teacher" : "Minako Walther", 
+    "room" : "Weekly on Thursdays at lunch in room 601"
+},
+{
+    "teacher" : "Minako Walther", 
+    "room" : "Tuesdays Monthly @lunch in room 601"
+},
+{
+    "teacher" : "Kevin Heiken", 
+    "room" : "Bi Weekly On Mondays at lunch in room 728"
+},
+{
+    "teacher" : "Lauren Kato", 
+    "room" : "Weekly on Thursdays at lunch in room P7"
+},
+{
+    "teacher" : "Brook Mangin", 
+    "room" : "Bi Weekly Wednesdays at lunch in room 731"
+},
+{
+    "teacher" : "Meghan Engle", 
+    "room" : "Weekly on Mondays at lunch in room 110"
+},
+{
+    "teacher" : "Julie Song", 
+    "room" : "Tuesdays Bi-Weekly at Lunch in Rm 102"
+},
+{
+    "teacher" : "David Marroquin", 
+    "room" : "Friday's weekly @lunch in rm 720"
+},
+{
+    "teacher" : "None", 
+    "room" : "Wednesday Weekly at Lunch in Room 806"
+},
+{
+    "teacher" : "Julie Yick", 
+    "room" : "Bi Weekly on Thursdays in room 729"
+},
+{
+    "teacher" : "Anthony Gallego", 
+    "room" : "Weekly on Fridays at lunch in room 125"
+},
+{
+    "teacher" : "Ariele Wildwind", 
+    "room" : "Weekly on Mondays at lunch on zoom"
+},
+{
+    "teacher" : "Edda Leija", 
+    "room" : "Bi weekly on wednesday @lunch in room 107 "
+},
+{
+    "teacher" : "Annie Liu", 
+    "room" : "Weekly on Wednesdays at lunch"
+},
+{
+    "teacher" : "Ms. Wildwind ", 
+    "room" : "Bi weekly on mondays @lunch in room 419"
+},
+{
+    "teacher" : "Ning Xu", 
+    "room" : "Weekly on Wednesdays at lunch"
+},
+{
+    "teacher" : "Tami Kittle", 
+    "room" : "Bi Weekly on Wednesdays at lunch in room TBD"
+},
+{
+    "teacher" : "Kristen Drolshagen; Latina Wharton", 
+    "room" : "Weekly on Tuesdays after school in the library"
+},
+{
+    "teacher" : "Ricky Alegria", 
+    "room" : "Thursday, Biweekly in Packard Hall"
+},
+{
+    "teacher" : "Frosty Gross", 
+    "room" : "Weekly on Wednesdays at lunch in Room 106"
+},
+{
+    "teacher" : "David Ortiz", 
+    "room" : "Monthly on Mondays at lunch in room 102"
+},
+{
+    "teacher" : "Pancho Morris", 
+    "room" : "Monday through Thursday Weekly starting after the Spartan Theatre Company spring musical"
+},
+{
+    "teacher" : "Mathew Austin", 
+    "room" : "Bi-weekly, Thursdays at Lunch in room 722"
+},
+{
+    "teacher" : "Allison Pfeifer", 
+    "room" : "Bi Weekly on Thursdays at lunch in room 117"
+},
+{
+    "teacher" : "None", 
+    "room" : "None"
+},
+{
+    "teacher" : "Kevin Heiken", 
+    "room" : "weekly on fridays @ lunch in room ??"
+},
+{
+    "teacher" : "Meghan Engle", 
+    "room" : "Weekly on Tuesdays at lunch in room 110"
+},
+{
+    "teacher" : "Jeff Panos", 
+    "room" : "None"
+},
+{
+    "teacher" : "Brian Perrymen", 
+    "room" : "Wednesday Bi-weekly @ lunch in rm 511"
+},
+{
+    "teacher" : "Julie Song", 
+    "room" : "Bi Weekly on Wednesdays at lunch in the library"
+},
+{
+    "teacher" : "Ning Xu", 
+    "room" : "Weekly on Fridays at lunch in 617"
+},
+{
+    "teacher" : "Mia Newton", 
+    "room" : "Weekly on Tuesdays at lunch in room 106"
+},
+{
+    "teacher" : "Sophia Caramagno", 
+    "room" : "Wednesday Weekly at Lunch in Room 706"
+},
+{
+    "teacher" : "Brook Mangin", 
+    "room" : "Bi Weekly on Wednesdays at lunch in room 731"
+},
+{
+    "teacher" : "Meghan Engle", 
+    "room" : "Bi Weekly on Fridays at lunch in room 110"
+},
+{
+    "teacher" : "Lyuda Shemyakina", 
+    "room" : "Monthly on Wednesdays at lunch in room 112"
+},
+{
+    "teacher" : "Marcey Winawer", 
+    "room" : "Wednesdays weekly @lunch in P5"
+},
+{
+    "teacher" : "Ning Xu", 
+    "room" : "Monthly on Tuesdays at lunch in room 617"
+},
+{
+    "teacher" : "Lori Nock", 
+    "room" : "Weekly on Wednesdays after school in room 109"
+},
+{
+    "teacher" : "Nate Bowen", 
+    "room" : "Weekly on Thursdays at lunch in room 725"
+},
+{
+    "teacher" : "Seamus Quillinan", 
+    "room" : "Weekly on Thuesdays at lunch in room 708"
+},
+{
+    "teacher" : "Lauren Camarillo", 
+    "room" : "Weekly on Wednesdays after school in room P7"
+},
+{
+    "teacher" : "Wyn Schu", 
+    "room" : "Weekly on Wednesdays in room New Engineering Complex"
+},
+{
+    "teacher" : "Julie Herman", 
+    "room" : "After school in the library"
+},
+{
+    "teacher" : "David Cmaylo", 
+    "room" : "Bi Weekly on Mondays at lunch in room 121"
+},
+{
+    "teacher" : "David Cmaylo", 
+    "room" : "Weekly on Thursdays at lunch in room 121"
+},
+{
+    "teacher" : "Nora EngleHall", 
+    "room" : "Tuesdays Monthly @lunch in room 212"
+},
+{
+    "teacher" : "Marcia Babiak", 
+    "room" : "Bi Weekly at lunch in room P1"
+},
+{
+    "teacher" : "Jeff Morgan", 
+    "room" : "Monthly on Mondays after school in room 611"
+},
+{
+    "teacher" : "Annie Liu", 
+    "room" : "Weekly on Mondays at lunch in room 404"
+},
+{
+    "teacher" : "Annie Liu", 
+    "room" : "Monthly, Friday at Lunch in Rm 409"
+},
+{
+    "teacher" : "Kimberly Marks", 
+    "room" : "Monday's Weekly @lunch in rm 702 "
+},
+{
+    "teacher" : "Ning Xu", 
+    "room" : "Bi Weekly on Tuesdays at lunch in room 617"
+},
+{
+    "teacher" : "Julie Song", 
+    "room" : "Monthly on Tuesday at Lunch in Room 102"
+},
+{
+    "teacher" : "Jennifer Chiu", 
+    "room" : "Bi-weekly on friday's  at lunch in room ?"
+},
+{
+    "teacher" : "Jessica Cohen-Bender", 
+    "room" : "Monthly on thrusdays in room 111"
+},
+{
+    "teacher" : "Maria Carter-Gianni", 
+    "room" : "Monday's Weekly @lunch in rm 702 "
+},
+{
+    "teacher" : "Jennifer Chiu", 
+    "room" : "Tuesdays Weekly @lunch in rm 513 "
+},
+{
+    "teacher" : "Matthew Austin", 
+    "room" : "Tuesdays Bi-weekly @lunch in rm 722"
+},
+{
+    "teacher" : "Kevin Heiken", 
+    "room" : "Tuesday @lunch in rm 104 "
+}
+    ],
 			clubs:[
 {
     "club_name" : "6th Man\n", 
@@ -1033,7 +1476,7 @@
     "y" : "54.73333333%", 
     "width" : "5.266666667%", 
     "height" : "6.4%", 
-    "name" : "Sc. Quad"
+    "name" : "Sci. Quad"
 },{
     "x" : "6.333333333%", 
     "y" : "61.73333333%", 
@@ -1697,6 +2140,7 @@
 			this.view="events";
 		},
 		displayInfo(room_name){
+<<<<<<< Updated upstream
             document.getElementById("infoToday").innerHTML = "Today's Clubs:<br>";
             document.getElementById("infoOther").innerHTML = "Other Clubs:<br>";
              const d = new Date();
@@ -1718,10 +2162,81 @@
                 }
             }
  
+=======
+            document.getElementById("secondaryClubs").innerHTML="";
+			this.primaryClubName="";
+						this.primaryClubDesc="";
+						this.primaryClubRoom="";
+			this.primaryLunchName="";
+					this.primaryLunchDesc="";
+					this.primaryLunchRoom="";
+					this.primaryEventName="";
+					this.primaryEventDesc="";
+					this.primaryEventRoom="";
+			for(var i=0;i<this.lunch.length;i++){
+				if(this.lunch[i].room_number==room_name){
+					this.primaryLunchName=this.lunch[i].lunch_name;
+					this.primaryLunchDesc=this.lunch[i].food;
+					this.primaryLunchRoom=this.lunch[i].room_number;
+					
+				}
+			}
+			for(var i=0;i<this.events.length;i++){
+				
+				if(this.events[i].room_number==room_name){
+					
+					this.primaryEventName=this.events[i].event_name;
+					this.primaryEventDesc=this.events[i].desc;
+					this.primaryEventRoom=this.events[i].room_number;
+					
+				}
+			}
+			for (var i=0; i<this.clubs.length; i++) {
+                
+				if(this.clubs[i].room_number==room_name){
+					if(this.clubs[i].room.toLowerCase().includes("friday")){
+						this.primaryClubName=this.clubs[i].club_name;
+						this.primaryClubDesc=this.clubs[i].desc;
+						this.primaryClubRoom=this.clubs[i].room;
+						
+					}else{
+						document.getElementById("secondaryClubs").innerHTML+=this.clubs[i].club_name+"<br>";
+					}
+				}
+				
+            }
+			
+			if(document.getElementById("secondaryClubs").innerHTML.length==0 && this.primaryClubName!=""){
+					document.getElementById("secondaryClubs").innerHTML+="None";
+				}
+		},
+		update(){
+			var foundTeacher="";
+			if(localStorage.getItem("Find a Teacher's Room").length>0){
+				for(var i=0;i<this.teachers.length;i++){
+					if(this.teachers[i].teacher==localStorage.getItem("Find a Teacher's Room")){
+						foundTeacher="yes";
+						document.getElementById("TeacherSearch").innerHTML="Room "+this.teachers[i].room.substring(this.teachers[i].room.length-3,this.teachers[i].room.length);
+						break;
+					}
+				}
+			}
+			if(foundTeacher!="yes"){
+				document.getElementById("TeacherSearch").innerHTML="";
+			}
+>>>>>>> Stashed changes
 		}
 		
       },
+	  computed:{
+		css(){
+			return{
+				"--roomHeight" : this.roomHeight,
+			}
+		}
+	  },
       created(){
+		this.roomHeight=this.primaryClubDesc.length*5+"px";
 		for(var i=0;i<this.mapboxes.length;i++){
 			this.mapboxes[i].color="yellow";
 		}
@@ -1732,7 +2247,7 @@
 		for(var i=0;i<this.mapboxes.length;i++){
 			if(eventRooms.includes(this.mapboxes[i].name)){
 				this.mapboxes[i].on="true";
-				this.mapboxes[i].color="yellow";
+				this.mapboxes[i].color="#fffb7a";
 			}
 		}
 		var lunchRooms=[];
@@ -1742,7 +2257,7 @@
 		for(var i=0;i<this.mapboxes.length;i++){
 			if(lunchRooms.includes(this.mapboxes[i].name)){
 				this.mapboxes[i].on="true";
-				this.mapboxes[i].color="blue";
+				this.mapboxes[i].color="#7ad0ff";
 			}
 		}
 		var rooms=[];
@@ -1755,7 +2270,7 @@
 		for(var i=0;i<this.mapboxes.length;i++){
 			if(rooms.includes(this.mapboxes[i].name)){
 				this.mapboxes[i].on="true";
-				this.mapboxes[i].color="green";
+				this.mapboxes[i].color="#7affb4";
 			}
 		}
 		
@@ -1763,6 +2278,14 @@
 		
 		
       },
+	  mounted(){
+		this.$nextTick(function () {
+            window.setInterval(() => {
+                this.update();
+            },10);
+})
+
+	  }
   }
 </script>
   
@@ -1989,6 +2512,7 @@
     font-family: 'Open Sans', sans-serif;
 
   }
+<<<<<<< Updated upstream
     #infoOther{
     position:absolute;
     left:77%;
@@ -2014,6 +2538,137 @@
     color:blue;
     top:94%;
     left:10%;
+=======
+  #primaryClubName{
+	width:25%;
+	text-align:center;
+	position:absolute;
+	left:75%;
+	top:15%;
+	font-size:40px;
+	font-family: 'Open Sans', sans-serif;
+	height:10%;
+	color:black;
+  }
+  #primaryClubDesc{
+	width:20%;
+	text-align:center;
+	position:absolute;
+	left:77.5%;
+	top:30%;
+	font-size:15px;
+	font-family: 'Open Sans', sans-serif;
+	height:10%;
+	color:black;
+  }
+  #primaryClubRoom{
+	width:20%;
+	text-align:center;
+	position:absolute;
+	left:77.5%;
+	top:22%;
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	height:10%;
+	color:black;
+  }
+  #primaryLunchName{
+	width:25%;
+	text-align:center;
+	position:absolute;
+	left:75%;
+	top:15%;
+	font-size:40px;
+	font-family: 'Open Sans', sans-serif;
+	height:10%;
+	color:black;
+  }
+  #primaryLunchDesc{
+	width:20%;
+	text-align:center;
+	position:absolute;
+	left:77.5%;
+	top:30%;
+	font-size:15px;
+	font-family: 'Open Sans', sans-serif;
+	height:10%;
+	color:black;
+  }
+  #primaryLunchRoom{
+	width:20%;
+	text-align:center;
+	position:absolute;
+	left:77.5%;
+	top:22%;
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	height:10%;
+	color:black;
+  }
+  #primaryEventName{
+	width:25%;
+	text-align:center;
+	position:absolute;
+	left:75%;
+	top:15%;
+	font-size:40px;
+	font-family: 'Open Sans', sans-serif;
+	height:10%;
+	color:black;
+  }
+  #primaryEventDesc{
+	width:20%;
+	text-align:center;
+	position:absolute;
+	left:77.5%;
+	top:30%;
+	font-size:15px;
+	font-family: 'Open Sans', sans-serif;
+	height:10%;
+	color:black;
+  }
+  #primaryEventRoom{
+	width:20%;
+	text-align:center;
+	position:absolute;
+	left:77.5%;
+	top:22%;
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	height:10%;
+	color:black;
+  }
+  #secondaryLabel{
+	width:20%;
+	text-align:center;
+	position:absolute;
+	left:77.5%;
+	top:57%;
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	height:10%;
+	color:black;
+  }
+  #secondaryClubs{
+	width:20%;
+	text-align:center;
+	position:absolute;
+	left:77.5%;
+	top:62%;
+	font-size:20px;
+	font-family: 'Open Sans', sans-serif;
+	height:50%;
+	color:black;
+  }
+  
+#TeacherSearch{
+	font-size:30px;
+	position:absolute;
+	width:20%;
+	text-align:center;
+	top:28%;
+	font-family: 'Open Sans', sans-serif;
+>>>>>>> Stashed changes
 }
 
 
