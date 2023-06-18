@@ -9,15 +9,6 @@
 		<MapBox v-for="mapbox in this.mapboxes" :x="mapbox.x" :y="mapbox.y" :width="mapbox.width" :height="mapbox.height" :text="mapbox.name" fontSize="8px" :color="mapbox.color" :on="mapbox.on" @click="displayInfo(mapbox.name)"></MapBox>
 	</div>
 	<div id="RightSeparator"></div>
-    <div id="infoToday"></div>
-	<div id="infoOther"></div>
-    <div id="event">Event</div>
-    <div id="food">Food</div>
-    <div id="club">Clubs</div>
-
-
-	<input v-on:keyup.enter="onEnter" />
-
     <div id="primaryClubName">{{primaryClubName}}</div>
 	<div id="primaryClubDesc">{{primaryClubDesc}}</div>
 	<div id="primaryClubRoom">{{primaryClubRoom}}</div>
@@ -2136,17 +2127,7 @@
 			document.getElementById("EventsView").classList.remove("notSelected");
 			this.view="events";
 		},
-		displayInfo(room_name){ 
-            /*for (var i=0; i<this.mapboxes.length; i++) {
-                if (this.mapboxes[i].color != "yellow") {
-                    alert(i)
-                }
-            }*/
-            this.mapboxes[7].color = "#0000ff"
-            this.mapboxes[7].on = "true";
-            alert(this.mapboxes[7].color);
-
-
+		displayInfo(room_name){
             document.getElementById("secondaryClubs").innerHTML="";
 			this.primaryClubName="";
 						this.primaryClubDesc="";
@@ -2198,7 +2179,7 @@
 			var foundTeacher="";
 			if(localStorage.getItem("Find a Teacher's Room").length>0){
 				for(var i=0;i<this.teachers.length;i++){
-					if( (this.teachers[i].teacher).toLowerCase()==(localStorage.getItem("Find a Teacher's Room")).toLowerCase() ){
+					if(document.getElementById("TeacherSearch")!=null && this.teachers[i].teacher==localStorage.getItem("Find a Teacher's Room")){
 						foundTeacher="yes";
 						document.getElementById("TeacherSearch").innerHTML="Room "+this.teachers[i].room.substring(this.teachers[i].room.length-3,this.teachers[i].room.length);
 						break;
@@ -2495,32 +2476,6 @@
     font-family: 'Open Sans', sans-serif;
 
   }
-    #infoOther{
-    position:absolute;
-    left:77%;
-    top:70%;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-  /*Key*/
-#event {
-    position:absolute;
-    color:rgb(200,200,0);
-    top:90%;
-    left:10%;
-}
-#club {
-    position:absolute;
-    color:green;
-    top:92%;
-    left:10%;
-}
-#food {
-    position:absolute;
-    color:blue;
-    top:94%;
-    left:10%;
-}
   #primaryClubName{
 	width:25%;
 	text-align:center;
